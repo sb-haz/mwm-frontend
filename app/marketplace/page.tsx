@@ -1,5 +1,4 @@
 import React from 'react'
-import { createClient } from "@/utils/supabase/server";
 import Link from 'next/link';
 import '../styles/styles.css';
 import '../styles/search.css';
@@ -8,15 +7,6 @@ import '../styles/services.css';
 import Footer from '@/components/Footer';
 
 export default async function Marketplace() {
-
-    const supabase = createClient();
-
-    const { data: { user },
-    } = await supabase.auth.getUser();
-
-    // if (!user) {
-    //     return redirect("/login");
-    // }
 
     return (
         <div className="container">
