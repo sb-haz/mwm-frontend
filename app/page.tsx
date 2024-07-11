@@ -28,7 +28,7 @@ export default async function Index() {
             <img src="coming-soon.png" alt="Coming Soon" />
           </div>
 
-          <Link href="/marketplace">
+          <Link rel="preload" href="/marketplace">
             <div className="centered-div">
               <button className="demo-button">Try Demo</button>
             </div>
