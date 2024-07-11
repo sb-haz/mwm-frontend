@@ -35,7 +35,7 @@ export default async function Marketplace() {
 
             <div className="services-container">
                 {/* Service 1 */}
-                <Link href="marketplace/service">
+                <Link href="service">
                     <div className="marketplace-service-item">
                         <img src="service-1.jpeg" className="service-image" />
                         <div className="service-details">
@@ -59,7 +59,7 @@ export default async function Marketplace() {
                     </div>
                 </Link>
                 {/* Service 2 */}
-                <Link href="marketplace/service">
+                <Link href="service">
                     <div className="marketplace-service-item">
                         <img src="service-2.jpeg" className="service-image" />
                         <div className="service-details">
