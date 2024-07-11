@@ -1,0 +1,29 @@
+/* styles.css */
+
+body {
+    background-color: #FBFBFB;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-heading {
+    color: #4B4B4B;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* Remove later, empty bottom space */
+.empty-space {
+    height: 90px;
+}

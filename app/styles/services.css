@@ -1,0 +1,235 @@
+/* Main container */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Each service item in marketplace */
+.marketplace-service-item {
+    position: relative;
+    width: auto;
+    background-color: white;
+    border: 1px solid #F1F1F1;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* Service image */
+.service-image {
+    height: 185px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Main details for service */
+.service-details {
+    padding: 10px;
+}
+
+/* Left: heading desc, Right: ratings */
+.marketplace-service-two-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Service page */
+/* Left: Ratings tags, Right: Save button */
+.service-top-section {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+
+/* Rating div */
+.service-rating {
+    display: flex;
+    align-items: center;
+}
+
+/* Rating stars */
+.service-rating img {
+    width: 14px;
+    height: auto;
+    margin-right: 4px;
+    opacity: 85%;
+}
+
+/* Rating number */
+.service-rating p {
+    font-size: 14px;
+    color: #858585;
+
+}
+
+/* Service names in marketplace */
+.marketplace-service-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Service description */
+.service-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    width: 90%;
+    margin-bottom: 1px;
+}
+
+/* Main Services body */
+.service-body {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Service items */
+.services-info-container {
+    padding: 12px;
+    border: 1px solid #F1F1F1;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-info-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F4D4D;
+    margin-top: 0px;
+}
+
+
+
+/* Profile picture and name */
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    margin-bottom: 18px;
+}
+
+.profile-picture {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+    opacity: 70%;
+}
+
+.profile-name {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+
+
+/* Tags */
+.service-tags {
+    margin-bottom: 8px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    color: #666;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.tag.verified {
+    font-size: 10px;
+    background-color: #eeeeee;
+    color: rgb(145, 145, 145);
+    height: 12px;
+}
+
+
+
+/* Favourite/Save button */
+.favorite-button.marketplace {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    ;
+    bottom: 20px;
+    right: 20px;
+}
+
+.favorite-button.service {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    ;
+    bottom: 10px;
+    right: 0px;
+}
+
+.favorite-icon {
+    width: 15px;
+    height: auto;
+    opacity: 50%;
+}
+
+
+
+/* Image indicators */
+.indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.indicator {
+    width: 5px;
+    height: 5px;
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.indicator.active {
+    background-color: #979797;
+}
+
+
+
+/* Buttons */
+.service-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+.service-custom-button {
+    flex: 1;
+    padding: 16px;
+    background-color: #FFAFAF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.service-custom-button:hover {
+    background-color: #fd9999;
+}

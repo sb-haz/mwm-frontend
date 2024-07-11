@@ -1,0 +1,29 @@
+.categories-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+
+.category-item {
+    padding: 8px 16px;
+    margin-right: 10px; 
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #828282; 
+}
+
+.category-item:first-child {
+    background-color: #FFB3B3;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.category-item:last-child {
+    margin-right: 0;
+}
+
+.categories-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}

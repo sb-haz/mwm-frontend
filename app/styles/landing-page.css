@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    /* remove all padding */
+    margin: 0;
+    padding: 0;
+
+    /* global font */
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: rgb(60, 60, 60);
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    /* not required if page long enough */
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* div to contain other sections */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100vh;
+}
+
+/* title section */
+.top-section {
+    background-color: white;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+
+    /* move title down */
+    margin-top: 0vh;
+    margin-bottom: 15px;
+}
+
+.top-section h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.top-section .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.top-section img {
+    width: 20%;
+    height: auto;
+    margin-bottom: -45px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .top-section img {
+    width: 50%;
+  }
+} */
+
+/* Cards */
+
+div {
+    /* outline: 1px solid red; */
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 10px;
+    margin: 0px;
+    max-width: 35%;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    flex: 50%;
+
+    margin-bottom: 40px;
+
+    font-family: 'Montserrat';
+    color: rgb(190, 21, 21);
+}
+
+.feature-card h2 {
+    font-family: "Reddit Sans";
+}
+
+.feature-card p {
+    margin-top: 10px;
+}
+
+/* footer */
+.footer-section {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.contact-info p {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.social-links {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.social-links a {
+    color: #535353;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* contact us */
+.contact-section {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.contact-section h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-section button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #dddddd;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #c5c5c5;
+}
+
+
+/* images */
+.top-art img {
+    width: 100%;
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .top-art img {
+        display: block;
+    }
+}
+
+
+.app-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.app-images img {
+    width: 110px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.coming-soon img {
+    width: 110px;
+    height: auto;
+    margin: 0 10px;
+    margin-left: 80%;
+    margin-top: -20%;
+    margin-bottom: 60px;
+}
+
+.mockup-1 img {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.icon {
+    height: 30px;
+    /* google icons size 24 colour #cccc */
+}
+
+
+
+/* Demo button */
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-button {
+    position: relative;
+    overflow: hidden;
+    background-color: #FFAFAF;
+    color: white;
+    font-size: 16px;
+    padding: 16px 38px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 0;
+    /* Ensure it's above pseudo-elements */
+}
+
+.demo-button::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(45deg, #FFAFAF, #FF80BF, #FFAFAF, #FF80BF);
+    background-size: 400%;
+    border-radius: 10px;
+    z-index: -1;
+    opacity: 1;
+    /* Ensure the glow is always visible */
+    filter: blur(5px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}

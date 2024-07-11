@@ -1,0 +1,40 @@
+.marketplace-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #F1F1F1;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.search-left {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping onto new lines */
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+}
+
+.search-icon {
+    width: 20px; 
+    height: 20px;
+    margin-left: 20px;
+}
+
+.search-text {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.search-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-right img {
+    height: 20px;
+    padding-right: 20px;
+    opacity: 80%;
+}

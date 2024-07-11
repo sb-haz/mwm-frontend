@@ -1,0 +1,65 @@
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DEA2E9;
+    padding: 15px 0; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon-wrapper {
+    position: relative;
+}
+
+.footer-icon {
+    height: 25px;
+    width: auto;
+    margin: 0 20px;
+    position: relative;
+}
+
+/* Active icon */
+.footer-icon.active {
+    transform: translateY(-3px);
+}
+
+.white-circle {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
+
+.white-circle.active {
+    display: block;
+}
+
+/* Ring animation */
+.footer-icon.ring {
+    height: 30px;
+    animation: pulse 1.25s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(2px);
+    }
+    100% {
+        transform: scale(1.10);
+    }
+}
