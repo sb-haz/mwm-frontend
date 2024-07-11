@@ -1,5 +1,5 @@
-import React from 'react'
-import { createClient } from "@/utils/supabase/server";
+import React from 'react';
+
 import '../styles/styles.css';
 import '../styles/search.css';
 import '../styles/categories.css';
@@ -7,11 +7,6 @@ import '../styles/services.css';
 import Footer from '@/components/Footer';
 
 export default async function Service() {
-
-    const supabase = createClient();
-
-    const { data: { user },
-    } = await supabase.auth.getUser();
 
     return (
         <div className="container">

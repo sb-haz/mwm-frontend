@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import '../styles/styles.css';
 import '../styles/search.css';
