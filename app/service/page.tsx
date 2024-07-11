@@ -1,9 +1,9 @@
 import React from 'react'
 import { createClient } from "@/utils/supabase/server";
-import '../../styles/styles.css';
-import '../../styles/search.css';
-import '../../styles/categories.css';
-import '../../styles/services.css';
+import '../styles/styles.css';
+import '../styles/search.css';
+import '../styles/categories.css';
+import '../styles/services.css';
 import Footer from '@/components/Footer';
 
 export default async function Service() {

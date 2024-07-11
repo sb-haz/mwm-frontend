@@ -82,7 +82,7 @@ export default async function Marketplace() {
                     </div>
                 </Link>
                 {/* Service 3 */}
-                <Link href="marketplace/service">
+                <Link href="service">
                     <div className="marketplace-service-item">
                         <img src="service-3.jpeg" className="service-image" />
                         <div className="service-details">
