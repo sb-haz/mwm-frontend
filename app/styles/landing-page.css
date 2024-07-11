@@ -21,7 +21,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* not required if page long enough */
 }
 
@@ -57,16 +57,12 @@ body {
     background: white;
     padding: 40px;
     border-radius: 10px;
-
-    /* move title down */
-    margin-top: 0vh;
-    margin-bottom: 15px;
 }
 
 .top-section h1 {
     font-size: 50px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
     font-size: 30px;
 }
 
@@ -220,7 +216,7 @@ div {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    margin-top: 8px;
+    margin-top: -14px;
 }
 
 .app-images img {
@@ -234,13 +230,13 @@ div {
     height: auto;
     margin: 0 10px;
     margin-left: 80%;
-    margin-top: -20%;
-    margin-bottom: 40px;
+    margin-top: -22%;
+    margin-bottom: 35px;
 }
 
 .mockup-1 img {
     width: 200px;
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 .icon {
