@@ -94,6 +94,7 @@
 
 /* Service items */
 .services-info-container {
+    background-color: white;
     padding: 12px;
     border: 1px solid #F1F1F1;
     border-radius: 15px;
