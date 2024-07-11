@@ -224,13 +224,26 @@
     flex: 1;
     padding: 16px;
     background-color: #FFAFAF;
-    color: white;
+    color: rgb(81, 81, 81);
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
-.service-custom-button:hover {
-    background-color: #fd9999;
+.glow-effect {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 175, 175, 0.5);
+    }
+    100% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 175, 175, 0.7);
+    }
 }

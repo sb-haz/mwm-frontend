@@ -67,7 +67,7 @@ export default async function Service() {
             </div>
 
             <div className="service-button-container">
-                <button className="service-custom-button">Request Quote</button>
+                <button className="service-custom-button glow-effect">Request Quote</button>
                 <button className="service-custom-button">Message</button>
             </div>
 
