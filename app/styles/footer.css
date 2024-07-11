@@ -1,15 +1,20 @@
 .sticky-footer {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #DEA2E9;
-    padding: 10px 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #DEA2E9;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
+
+
 
 .footer-icons {
     display: flex;
