@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     background-color: #DEA2E9;
-    padding: 15px 0; 
+    padding: 10px 0; 
     display: flex;
     justify-content: space-around; 
     align-items: center;
@@ -24,7 +24,7 @@
 .footer-icon {
     height: 25px;
     width: auto;
-    margin: 0 20px;
+    margin: 0 18px;
     position: relative;
 }
 
