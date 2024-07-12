@@ -8,7 +8,7 @@ export default async function Profile() {
 
     return (
         <div className="container">
-            <h1 className="page-heading">Mo Hasan</h1>
+            <h1 className="page-heading">Yasmine</h1>
 
             <div className="resources-profile-info">
                 <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
