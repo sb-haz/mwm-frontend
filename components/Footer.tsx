@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="white-circle"></div>
           </div>
         </Link>
-        <Link href="ring">
+        <Link href="live">
           <div className="footer-icon-wrapper">
             <img src="/footer-ring.png" className="footer-icon ring" />
             <div className="white-circle"></div>
