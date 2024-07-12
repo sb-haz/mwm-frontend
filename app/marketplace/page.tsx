@@ -10,27 +10,29 @@ export default async function Marketplace() {
 
     return (
         <div className="container">
-            <h1 className="page-heading">Marketplace</h1>
-            <div className="marketplace-search-bar">
-                <div className="search-left">
-                    <img className="search-icon" src='search-icon.png' />
-                    <p className="search-text">Search</p>
+            <div className="inner-container">
+                <h1 className="page-heading">Marketplace</h1>
+                <div className="marketplace-search-bar">
+                    <div className="search-left">
+                        <img className="search-icon" src='search-icon.png' />
+                        <p className="search-text">Search</p>
+                    </div>
+                    <div className="search-right">
+                        <img src="search-filter-icon.png" className='search-filter-icon' />
+                    </div>
                 </div>
-                <div className="search-right">
-                    <img src="search-filter-icon.png" className='search-filter-icon' />
-                </div>
-            </div>
 
-            <div className="categories-container">
-                <div className="category-item">All</div>
-                <div className="category-item">Photography</div>
-                <div className="category-item">Chauffeurs</div>
-                <div className="category-item">Videographers</div>
-                <div className="category-item">DJs</div>
-                <div className="category-item">Makeup-Artists</div>
-                <div className="category-item">Florists</div>
-                <div className="category-item">Desserts</div>
-                <div className="category-item">Venues</div>
+                <div className="categories-container">
+                    <div className="category-item">All</div>
+                    <div className="category-item">Photography</div>
+                    <div className="category-item">Chauffeurs</div>
+                    <div className="category-item">Videographers</div>
+                    <div className="category-item">DJs</div>
+                    <div className="category-item">Makeup-Artists</div>
+                    <div className="category-item">Florists</div>
+                    <div className="category-item">Desserts</div>
+                    <div className="category-item">Venues</div>
+                </div>
             </div>
 
             <div className="services-container">
@@ -53,7 +55,7 @@ export default async function Marketplace() {
                             </div>
                             <p className="service-description">We offer both self-hire and chauffeur-driven experiences in a selection of luxury cars, including Rolls Royce and Bentleys.</p>
                             <button className="favorite-button marketplace">
-                                <img src="save-icon.png" alt="Favorite" className="favorite-icon" />
+                                <img src="heart-empty.png" alt="Favorite" className="favorite-icon" />
                             </button>
                         </div>
                     </div>
@@ -76,7 +78,7 @@ export default async function Marketplace() {
                             </div>
                             <p className="service-description">Offering a delectable selection of wedding cakes, treats, and desserts. Indulge in beautifully crafted confections.</p>
                             <button className="favorite-button marketplace">
-                                <img src="save-icon.png" alt="Favorite" className="favorite-icon" />
+                                <img src="heart-empty.png" alt="Favorite" className="favorite-icon" />
                             </button>
                         </div>
                     </div>
@@ -99,7 +101,7 @@ export default async function Marketplace() {
                             </div>
                             <p className="service-description">360 cameras to capture every angle of your special day. Experience immersive wedding moments with high-quality.</p>
                             <button className="favorite-button marketplace">
-                                <img src="save-icon.png" alt="Favorite" className="favorite-icon" />
+                                <img src="heart-empty.png" alt="Favorite" className="favorite-icon" />
                             </button>
                         </div>
                     </div>
