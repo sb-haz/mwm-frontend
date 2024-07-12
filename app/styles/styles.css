@@ -1,6 +1,7 @@
 /* styles.css */
 
 body {
+    margin: 0px;
     background-color: #FBFBFB;
     overflow-x: hidden;
 }
@@ -17,15 +18,15 @@ a {
 }
 
 .container {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
     padding-bottom: 20px;
 }
 
 .inner-container {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Remove later, empty bottom space */
