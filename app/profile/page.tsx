@@ -8,13 +8,15 @@ export default async function Profile() {
 
     return (
         <div className="container">
-            <h1 className="page-heading">Yasmine</h1>
+            <div className="inner-container">
+                <h1 className="page-heading">Yasmine</h1>
 
-            <div className="resources-profile-info">
-                <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
-                <div className="resources-profile-text-content">
-                    <button className="resources-edit-profile-button">Edit Profile</button>
-                    <button className="resources-become-seller-button">Become a Seller</button>
+                <div className="resources-profile-info">
+                    <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
+                    <div className="resources-profile-text-content">
+                        <button className="resources-edit-profile-button">Edit Profile</button>
+                        <button className="resources-become-seller-button">Become a Seller</button>
+                    </div>
                 </div>
             </div>
             <div className="resources-messaging-section">
@@ -60,8 +62,6 @@ export default async function Profile() {
 
             <div className="empty-space">
             </div>
-
-
 
             <Footer />
         </div >
