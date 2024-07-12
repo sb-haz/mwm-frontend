@@ -18,7 +18,7 @@
     border-radius: 50%;
     margin-right: 15px;
     border: 1px solid #ccc; /* Example of a subtle grey border */
-    padding: 4px; /* Adjust padding for spacing */
+    padding: 3px; /* Adjust padding for spacing */
 }
 
 .resources-profile-text-content {
@@ -34,17 +34,13 @@
 
 .resources-edit-profile-button {
     padding: 10px 15px;
-    background-color: #ccc; /* Grey color for Edit Profile button */
+    background-color: #f0f0f0; /* Grey color for Edit Profile button */
     color: #333; /* Dark text color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px; /* Adjust margin top */
     font-size: 14px;
-}
-
-.resources-edit-profile-button:hover {
-    background-color: #bbb; /* Darker grey on hover */
 }
 
 .resources-become-seller-button {
@@ -68,6 +64,7 @@
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
     position: relative; /* Ensure the tabs container is relatively positioned */
+    color: #464646;
 }
 
 .resources-messaging-tab {
@@ -127,14 +124,15 @@
 .resources-messaging-name {
     font-weight: bold;
     margin-bottom: 5px;
+    color: #464646;
 }
 
 .resources-messaging-message {
-    color: #333;
+    color: #7d7d7d;
     margin-bottom: 5px;
 }
 
 .resources-messaging-time {
     font-size: 12px;
-    color: #999;
+    color: #afafaf;
 }
