@@ -1,12 +1,75 @@
 import React from 'react'
 import Footer from '@/components/Footer';
 import '../styles/styles.css';
+import '../styles/resources.css';
+import '../styles/search.css';
 
 export default async function Resources() {
 
     return (
         <div className="container">
-            <h1 className="page-heading">Resources</h1>
+            <div className="inner-container">
+                <h1 className="page-heading">Planning Hub</h1>
+                <div className="marketplace-search-bar">
+                    <div className="search-left">
+                        <img className="search-icon" src='search-icon.png' />
+                        <p className="search-text">Search</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="resources-container">
+                <div className="resources-card">
+                    <div className="resources-tag">New</div>
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="resources-title">Free Designs & Templates</h2>
+                            <p className="resources-description">Free templates for your wedding displays, signs, invites and more.</p>
+                        </div>
+                        <img src="resource-1.png" className="resources-card-image" />
+                    </div>
+                </div>
+                <div className="resources-card">
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="resources-title">Essential Planning Guides</h2>
+                            <p className="resources-description">Guides and checklists for every step of your wedding journey.</p>
+                        </div>
+                        <img src="resource-2.png" className="resources-card-image" />
+                    </div>
+                </div>
+                <div className="resources-card">
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="resources-title">DIY Ideas & Inspiration</h2>
+                            <p className="resources-description">Browse DIY wedding ideas and projects for personalised touches.</p>
+                        </div>
+                        <img src="resource-3.png" className="resources-card-image" />
+                    </div>
+                </div>
+                <div className="resources-card">
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="resources-title">Dealing with Vendors and sellers</h2>
+                            <p className="resources-description">Practical advice and strategies for buying from vendors.</p>
+                        </div>
+                        <img src="resource-4.png" className="resources-card-image" />
+                    </div>
+                </div>
+                <div className="resources-card">
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="resources-title">Honeymoon Planning</h2>
+                            <p className="resources-description">Plan the perfect  getaway with destination guides.</p>
+                        </div>
+                        <img src="resource-5.png" className="resources-card-image" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="empty-space">
+            </div>
+
             <Footer />
         </div >
     )

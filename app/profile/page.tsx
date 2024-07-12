@@ -1,12 +1,68 @@
 import React from 'react'
 import Footer from '@/components/Footer';
 import '../styles/styles.css';
+import '../styles/profile.css';
+import '../styles/search.css';
 
 export default async function Profile() {
 
     return (
         <div className="container">
-            <h1 className="page-heading">Profile</h1>
+            <h1 className="page-heading">Mo Hasan</h1>
+
+            <div className="resources-profile-info">
+                <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
+                <div className="resources-profile-text-content">
+                    <button className="resources-edit-profile-button">Edit Profile</button>
+                    <button className="resources-become-seller-button">Become a Seller</button>
+                </div>
+            </div>
+            <div className="resources-messaging-section">
+                <div className="resources-messaging-tabs">
+                    <div className="resources-messaging-tab active">Primary Messages</div>
+                    <div className="resources-messaging-tab">Order History</div>
+                </div>
+
+                <div className="marketplace-search-bar">
+                    <div className="search-left">
+                        <img className="search-icon" src='search-icon.png' />
+                        <p className="search-text">Search</p>
+                    </div>
+                </div>
+
+                <div className="resources-messaging-list">
+                    <div className="resources-messaging-row">
+                        <img src="company-logo-1.jpg" className="resources-messaging-profile-pic" />
+                        <div className="resources-messaging-text-content">
+                            <div className="resources-messaging-name">Exotic Chauffeur Hire</div>
+                            <div className="resources-messaging-message">Hey, can we discuss the catering?</div>
+                        </div>
+                        <div className="resources-messaging-time">6 mins ago</div>
+                    </div>
+                    <div className="resources-messaging-row">
+                        <img src="company-logo-2.jpg" className="resources-messaging-profile-pic" />
+                        <div className="resources-messaging-text-content">
+                            <div className="resources-messaging-name">Safira Floral</div>
+                            <div className="resources-messaging-message">Can you send me the floral arrangements?</div>
+                        </div>
+                        <div className="resources-messaging-time">30 mins ago</div>
+                    </div>
+                    <div className="resources-messaging-row">
+                        <img src="company-logo-3.jpg" className="resources-messaging-profile-pic" />
+                        <div className="resources-messaging-text-content">
+                            <div className="resources-messaging-name">Adam Videography</div>
+                            <div className="resources-messaging-message">Can you send me the floral arrangements?</div>
+                        </div>
+                        <div className="resources-messaging-time">2 hours ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="empty-space">
+            </div>
+
+
+
             <Footer />
         </div >
     )
