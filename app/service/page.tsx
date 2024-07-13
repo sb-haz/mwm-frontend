@@ -49,7 +49,7 @@ export default async function Service() {
 
                     {/* Favorite button */}
                     <button className="favorite-button service">
-                        <img src="../save-icon.png" alt="Favorite" className="favorite-icon" />
+                        <img src="../heart-empty.png" alt="Favorite" className="favorite-icon" />
                     </button>
                 </div>
 
