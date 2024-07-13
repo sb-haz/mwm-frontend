@@ -119,12 +119,19 @@ export default async function Marketplace() {
                 </Link>
             </div>
 
-            <div className="center-items margin-top-5">
-                <p className="tag text-grey">Load more services</p>
+            <div className="center-items">
+                <div className="pagination">
+                    <p className="tag tag-pink-background text-dark-grey text-thick">1</p>
+                    <p className="tag tag-grey-background tag-grey-text">2</p>
+                    <p className="tag tag-grey-background tag-grey-text">3</p>
+                    <p className="tag tag-grey-background tag-grey-text">4</p>
+                    <p className="tag tag-grey-background tag-grey-text">5</p>
+                    <p className="tag tag-grey-background tag-grey-text">Next</p>
+                </div>
             </div>
 
             {/* Empty space */}
-            <div className="empty-space"></div>
+            <div className="margin-top-40"></div>
 
             {/* Footer */}
             <Footer />

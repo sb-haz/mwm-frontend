@@ -265,6 +265,10 @@ a {
     font-weight: bold;
 }
 
+.text-dark-grey {
+    color: #333;
+}
+
 .text-grey {
     color: #7d7d7d;
 }
@@ -425,16 +429,12 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
 
 
 
@@ -444,3 +444,4 @@ a {
     flex-wrap: wrap;
     gap: 10px;
 }
+
