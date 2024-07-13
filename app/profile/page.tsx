@@ -12,15 +12,15 @@ export default async function Profile() {
             {/* Main content container */}
             <div className="inner-container">
                 {/* Page heading */}
-                <h1 className="page-heading">Yasmine</h1>
+                <h1 className="heading-large">Yasmine</h1>
 
                 {/* Profile information section */}
                 <div className="resources-profile-info">
                     <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
                     <div className="resources-profile-text-content">
                         {/* Buttons for editing profile and becoming a seller */}
-                        <button className="resources-edit-profile-button">Edit Profile</button>
-                        <button className="resources-become-seller-button">Become a Seller</button>
+                        <button className="button grey-button button-medium">Edit Profile</button>
+                        <button className="button pink-button button-medium button-text-white">Become a Seller</button>
                     </div>
                 </div>
             </div>
@@ -34,10 +34,12 @@ export default async function Profile() {
                 </div>
 
                 {/* Search bar */}
-                <div className="marketplace-search-bar">
-                    <div className="search-left">
-                        <img className="search-icon" src='search-icon.png' />
-                        <p className="search-text">Search</p>
+                <div className="search-container">
+                    <div className="full-width-search">
+                        <div className="search-left">
+                            <img src="search-icon.png" alt="Search Icon" />
+                            <p className="text-m text-grey">Search</p>
+                        </div>
                     </div>
                 </div>
 

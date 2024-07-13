@@ -11,13 +11,15 @@ export default async function Resources() {
             {/* Main content container */}
             <div className="inner-container">
                 {/* Page heading */}
-                <h1 className="page-heading">Planning Hub</h1>
+                <h1 className="heading-large">Planning Hub</h1>
 
                 {/* Search bar */}
-                <div className="marketplace-search-bar">
-                    <div className="search-left">
-                        <img className="search-icon" src='search-icon.png' />
-                        <p className="search-text">Search</p>
+                <div className="search-container">
+                    <div className="full-width-search">
+                        <div className="search-left">
+                            <img src="search-icon.png" alt="Search Icon" />
+                            <p className="text-m text-grey">Search</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,8 +31,8 @@ export default async function Resources() {
                     <div className="resources-tag">New</div>
                     <div className="resources-card-content">
                         <div className="resources-text-content">
-                            <h2 className="resources-title">Free Designs & Templates</h2>
-                            <p className="resources-description">Free templates for your wedding displays, signs, invites and more.</p>
+                            <h2 className="heading-medium heading-medium resources-title">Free Designs & Templates</h2>
+                            <p className="text-s text-grey resources-description">Free templates for your wedding displays, signs, invites and more.</p>
                         </div>
                         <img src="resource-1.png" className="resources-card-image" />
                     </div>
@@ -40,8 +42,8 @@ export default async function Resources() {
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
-                            <h2 className="resources-title">Essential Planning Guides</h2>
-                            <p className="resources-description">Guides and checklists for every step of your wedding journey.</p>
+                            <h2 className="heading-medium heading-medium resources-title">Essential Planning Guides</h2>
+                            <p className="text-s text-grey resources-description">Guides and checklists for every step of your wedding journey.</p>
                         </div>
                         <img src="resource-2.png" className="resources-card-image" />
                     </div>
@@ -51,8 +53,8 @@ export default async function Resources() {
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
-                            <h2 className="resources-title">DIY Ideas & Inspiration</h2>
-                            <p className="resources-description">Browse DIY wedding ideas and projects for personalised touches.</p>
+                            <h2 className="heading-medium resources-title">DIY Ideas & Inspiration</h2>
+                            <p className="text-s text-grey resources-description">Browse DIY wedding ideas and projects for personalised touches.</p>
                         </div>
                         <img src="resource-3.png" className="resources-card-image" />
                     </div>
@@ -62,8 +64,8 @@ export default async function Resources() {
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
-                            <h2 className="resources-title">Dealing with Vendors and sellers</h2>
-                            <p className="resources-description">Practical advice and strategies for buying from vendors.</p>
+                            <h2 className="heading-medium resources-title">Dealing with Vendors and sellers</h2>
+                            <p className="text-s text-grey resources-description">Practical advice and strategies for buying from vendors.</p>
                         </div>
                         <img src="resource-4.png" className="resources-card-image" />
                     </div>
@@ -73,8 +75,8 @@ export default async function Resources() {
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
-                            <h2 className="resources-title">Honeymoon Planning</h2>
-                            <p className="resources-description">Plan the perfect getaway with destination guides.</p>
+                            <h2 className="heading-medium resources-title">Honeymoon Planning</h2>
+                            <p className="text-s text-grey resources-description">Plan the perfect getaway with destination guides.</p>
                         </div>
                         <img src="resource-5.png" className="resources-card-image" />
                     </div>

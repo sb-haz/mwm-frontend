@@ -18,49 +18,52 @@ export default async function LiveTwo() {
                 <div className="live-container">
 
                     {/* Page Heading */}
-                    <h1 className="page-heading reduce-margin">What's the couple's name?</h1>
+                    <h1 className="heading-large reduce-margin">What's the couple's name?</h1>
 
                     {/* Couple's Name Search Bar */}
-                    <div className="search-bar-two">
-                        <div className="live-date-search-bar split-two">
+                    <div className="search-container">
+                        <div className="half-width-search">
                             <div className="search-left">
-                                <p className="search-text">James</p>
+                                <p className="text-m text-grey">James</p>
                             </div>
                         </div>
-                        <div className="live-date-search-bar split-two">
+                        <div className="half-width-search">
                             <div className="search-left">
-                                <p className="search-text">Yasmine</p>
+                                <p className="text-m text-grey">Yasmine</p>
                             </div>
                         </div>
                     </div>
 
                     {/* Wedding Date Heading */}
-                    <h1 className="page-subheading">Wedding date</h1>
+                    <h1 className="heading-large">Wedding date</h1>
 
                     {/* Wedding Date Search Bar */}
-                    <div className="live-date-search-bar">
-                        <div className="search-left calendar-icon">
-                            <p className="search-text">15 March 2024</p>
-                        </div>
-                        <div className="search-right">
-                            <img className="calendar-icon-img" src="calendar-icon.png" alt="Calendar Icon" />
+                    <div className="search-container">
+                        <div className="full-width-search">
+                            <div className="search-left">
+                                <img src="search-icon.png" alt="Search Icon" />
+                                <p className="text-m text-grey">Search</p>
+                            </div>
+                            <div className="search-right">
+                                <img src="calendar-icon.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Full Width Image */}
-            <img src="couple-art-date.png" className="full-width-image" alt="Full Width Image" />
+            <img src="couple-art-date-min.png" className="full-width-image" alt="Full Width Image" />
 
             {/* Continue Button */}
             <div className="container">
                 <div className="live-container">
                     <Link href="livethree">
                         <div className="center-button-container">
-                            <button className="get-started-button glow-effect">Continue</button>
+                            <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Continue</button>
                         </div>
                     </Link>
-                    
+
                 </div>
             </div>
 

@@ -3,11 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
-    /* remove all padding */
-    /* margin: 0; */
     padding: 0;
-
-    /* global font */
     text-decoration: none;
     font-family: "Montserrat";
     color: rgb(60, 60, 60);
@@ -21,8 +17,6 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    /* min-height: 100vh; */
-    /* not required if page long enough */
 }
 
 html {
@@ -48,7 +42,6 @@ body {
 .top-section {
     background-color: white;
     padding: 20px;
-
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -79,139 +72,6 @@ body {
     margin-bottom: -45px;
 }
 
-/* @media screen and (max-width: 768px) {
-  .top-section img {
-    width: 50%;
-  }
-} */
-
-/* Cards */
-
-div {
-    /* outline: 1px solid red; */
-}
-
-.feature-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.feature-card {
-    background: white;
-    padding: 10px;
-    margin: 0px;
-    max-width: 35%;
-    /* border-radius: 10px; */
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
-    text-align: center;
-    flex: 50%;
-
-    margin-bottom: 40px;
-
-    font-family: 'Montserrat';
-    color: rgb(190, 21, 21);
-}
-
-.feature-card h2 {
-    font-family: "Reddit Sans";
-}
-
-.feature-card p {
-    margin-top: 10px;
-}
-
-/* footer */
-.footer-section {
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-top: 60px;
-    width: 100%;
-    font-size: 14px;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    min-height: 100px;
-}
-
-.contact-info p {
-    width: 100%;
-    margin-top: 8px;
-}
-
-.social-links {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.social-links a {
-    color: #535353;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-/* contact us */
-.contact-section {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 5px;
-}
-
-.contact-section h5 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    max-width: 300px;
-    word-wrap: break-word;
-}
-
-.contact-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-section input[type="email"] {
-    padding: 8px;
-    margin-bottom: 10px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.contact-section button[type="submit"] {
-    padding: 8px 16px;
-    background-color: #dddddd;
-    color: #000000;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-section button[type="submit"]:hover {
-    background-color: #c5c5c5;
-}
-
-
-/* images */
-.top-art img {
-    width: 100%;
-    display: none;
-}
-
-@media screen and (max-width: 500px) {
-    .top-art img {
-        display: block;
-    }
-}
-
-
 .app-images {
     display: flex;
     justify-content: center;
@@ -239,12 +99,6 @@ div {
     padding-top: 5px;
 }
 
-.icon {
-    height: 30px;
-    /* google icons size 24 colour #cccc */
-}
-
-
 
 /* Demo button */
 .centered-div {
@@ -264,7 +118,6 @@ div {
     cursor: pointer;
     border-radius: 10px;
     z-index: 0;
-    /* Ensure it's above pseudo-elements */
 }
 
 .demo-button::before {
@@ -279,7 +132,6 @@ div {
     border-radius: 10px;
     z-index: -1;
     opacity: 1;
-    /* Ensure the glow is always visible */
     filter: blur(5px);
     animation: glowing 20s linear infinite;
 }

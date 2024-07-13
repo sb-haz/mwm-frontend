@@ -15,7 +15,7 @@ export default async function LiveThree() {
 
             <div className="container reduce-container-margin">
                 {/* Image Above Boxes */}
-                <div className="dashboard-image-above-boxes">
+                <div className="dashboard-image-above-boxes grow-effect">
                     <img src="couples-name.png" alt="Image Above Boxes" />
                 </div>
 
@@ -23,44 +23,44 @@ export default async function LiveThree() {
                 <div className="dashboard-box-container">
                     {/* Dashboard Box 1 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Wedding Event</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Wedding Event</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
                     </div>
 
                     {/* Dashboard Box 2 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Photo & Videos</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Photo & Videos</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 3 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Gifting and Payments</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Gifting and Payments</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 4 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Interactive Games</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Interactive Games</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
                     </div>
 
                     {/* Dashboard Box 5 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Messaging & Guestbook</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Messaging & Guestbook</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 6 */}
                     <div className="dashboard-box">
-                        <h2 className="dashboard-box-title">Notifications and Updates</h2>
-                        <p className="dashboard-box-description">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="dashboard-setup-button">Setup</button>
+                        <h2 className="heading-medium">Notifications and Updates</h2>
+                        <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
+                        <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
                     </div>
                 </div>
             </div>

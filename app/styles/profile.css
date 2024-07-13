@@ -1,7 +1,7 @@
 .resources-profile-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start;
     margin-bottom: 15px;
 }
 
@@ -17,41 +17,20 @@
     height: 80px;
     border-radius: 50%;
     margin-right: 15px;
-    border: 1px solid #ccc; /* Example of a subtle grey border */
-    padding: 3px; /* Adjust padding for spacing */
+    border: 1px solid #ccc;
+    padding: 3px;
 }
 
 .resources-profile-text-content {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .resources-profile-name {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
-}
-
-.resources-edit-profile-button {
-    padding: 10px 15px;
-    background-color: #f0f0f0; /* Grey color for Edit Profile button */
-    color: #333; /* Dark text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px; /* Adjust margin top */
-    font-size: 14px;
-}
-
-.resources-become-seller-button {
-    padding: 10px 15px;
-    background-color: #FFB3B3; /* Pink color for Become a Seller button */
-    color: #291E1E;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px; /* Adjust margin top */
-    font-size: 14px;
 }
 
 .resources-messaging-section {
@@ -63,7 +42,7 @@
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
-    position: relative; /* Ensure the tabs container is relatively positioned */
+    position: relative;
     color: #464646;
 }
 
@@ -73,16 +52,16 @@
     padding: 10px 0;
     cursor: pointer;
     font-size: 16px;
-    position: relative; /* Ensure each tab is relatively positioned */
+    position: relative;
 }
 
 .resources-messaging-tab.active {
     font-weight: bold;
     background: linear-gradient(to right, transparent, #c0c0c0, transparent);
-    background-size: 100% 2px; /* Adjust the height of the line */
+    background-size: 100% 2px;
     background-repeat: no-repeat;
     background-position: bottom;
-    z-index: 1; /* Ensure active tab appears above the underline */
+    z-index: 1;
 }
 
 .resources-messaging-tabs::after {
@@ -97,9 +76,7 @@
 
 
 .resources-messaging-list {
-    /* background-color: #f9f9f9; */
     border-radius: 8px;
-    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
     padding: 10px;
 }
 
@@ -107,7 +84,6 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    /* border-bottom: 1px solid #ddd; */
 }
 
 .resources-messaging-profile-pic {

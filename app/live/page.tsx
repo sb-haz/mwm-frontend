@@ -15,7 +15,7 @@ export default async function Live() {
             <div className="container">
                 <div className="live-container">
                     {/* Page Heading */}
-                    <h1 className="page-heading">Yasmine, let's make your wedding a memorable one.</h1>
+                    <h1 className="heading-large">Yasmine, let's make your wedding a memorable one.</h1>
 
                     {/* Full Width Image */}
                     <img src="video-button.png" className="full-width-image" alt="Full Width Image" />
@@ -57,7 +57,7 @@ export default async function Live() {
                         {/* Get Started Button */}
                         <Link href="livetwo">
                             <div className="center-button-container">
-                                <button className="get-started-button glow-effect">Get Started</button>
+                                <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Get Started</button>
                             </div>
                         </Link>
 

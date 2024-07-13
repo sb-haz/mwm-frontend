@@ -30,7 +30,6 @@
     position: relative;
 }
 
-/* Active icon */
 .footer-icon.active {
     transform: translateY(-3px);
 }

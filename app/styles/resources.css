@@ -43,17 +43,12 @@
 
 .resources-title {
     margin: 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: #464646;
     width: 90%;
 }
 
 .resources-description {
     margin: 5px 0 0 0;
     padding-top: 6px;
-    font-size: 14px;
-    color: grey;
 }
 
 .resources-card-image {
