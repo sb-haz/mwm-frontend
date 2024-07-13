@@ -92,6 +92,8 @@ export default async function Service() {
 
             {/* Empty space */}
             <div className="empty-space"></div>
+            <div className="empty-space"></div>
+            
 
             {/* Footer */}
             <Footer />
