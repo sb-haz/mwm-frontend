@@ -16,7 +16,7 @@ export default async function Profile() {
 
                 {/* Profile information section */}
                 <div className="resources-profile-info">
-                    <img src="profile-pic.jpg" className="resources-profile-pic-top-left" width={80} height={80}/>
+                    <img src="profile-pic.jpg" className="resources-profile-pic-top-left" width={80} height={80} />
                     <div className="resources-profile-text-content">
                         {/* Buttons for editing profile and becoming a seller */}
                         <button className="button grey-button button-medium">Edit Profile</button>
@@ -55,20 +55,28 @@ export default async function Profile() {
                         <div className="text-xs text-light-grey">6 mins ago</div>
                     </div>
                     <div className="resources-messaging-row">
+                        <img src="company-logo-4.jpg" className="resources-messaging-profile-pic" />
+                        <div className="resources-messaging-text-content">
+                            <div className="heading-small resources-messaging-name">White Bloom Decor</div>
+                            <div className="text-m text-grey resources-messaging-message">The payment wasn't sent so I can't.</div>
+                        </div>
+                        <div className="text-xs text-light-grey">3 hours ago</div>
+                    </div>
+                    <div className="resources-messaging-row">
+                        <img src="company-logo-3.jpg" className="resources-messaging-profile-pic" />
+                        <div className="resources-messaging-text-content">
+                            <div className="heading-small resources-messaging-name">Adam Videography</div>
+                            <div className="text-m text-grey resources-messaging-message">Why haven't you paid, you brokie</div>
+                        </div>
+                        <div className="text-xs text-light-grey">2 hours ago</div>
+                    </div>
+                    <div className="resources-messaging-row">
                         <img src="company-logo-2.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
                             <div className="heading-small resources-messaging-name">Safira Floral</div>
                             <div className="text-m text-grey resources-messaging-message">Can you send me the floral arrangements?</div>
                         </div>
                         <div className="text-xs text-light-grey">30 mins ago</div>
-                    </div>
-                    <div className="resources-messaging-row">
-                        <img src="company-logo-3.jpg" className="resources-messaging-profile-pic" />
-                        <div className="resources-messaging-text-content">
-                            <div className="heading-small resources-messaging-name">Adam Videography</div>
-                            <div className="text-m text-grey resources-messaging-message">Can you send me the floral arrangements?</div>
-                        </div>
-                        <div className="text-xs text-light-grey">2 hours ago</div>
                     </div>
                 </div>
             </div>
