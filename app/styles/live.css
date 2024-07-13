@@ -11,15 +11,10 @@
     position: relative;
     width: 100%;
     max-width: 100%;
-    /* Change if image dimensions change later */
-    padding-bottom: calc(301 / 966 * 100%);
     overflow: hidden;
 }
 
-.top-art {
-    position: absolute;
-    top: 0;
-    left: 0;
+.responsive-image {
     width: 100%;
     height: auto;
     display: block;
@@ -43,8 +38,7 @@
     margin-bottom: -10px;
 }
 
-.full-width-image {
-    width: 100%;
+.image-bottom-margin {
     margin-bottom: 12px;
 }
 

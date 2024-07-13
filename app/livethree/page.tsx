@@ -12,7 +12,7 @@ export default async function LiveThree() {
         <div>
             {/* Top Art */}
             <div className="image-container">
-                <img src="flower-art-top.png" className="top-art" alt="Top Art Flowery Design" />
+                <img src="flower-art-top.png" className="responsive-image" alt="Top Art Flowery Design" />
             </div>
 
             <div className="container reduce-container-margin">

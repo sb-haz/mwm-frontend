@@ -11,7 +11,7 @@ export default async function Live() {
         <div>
             {/* Top Art */}
             <div className="image-container">
-                <img src="flower-art-top.png" className="top-art" alt="Top Art Flowery Design" />
+                <img src="flower-art-top.png" className="responsive-image" alt="Top Art Flowery Design" />
             </div>
 
             <div className="container">
@@ -20,7 +20,9 @@ export default async function Live() {
                     <h1 className="heading-large">Yasmine, let's make your wedding a memorable one.</h1>
 
                     {/* Full Width Image */}
-                    <img src="video-button.png" className="full-width-image" alt="Full Width Image" />
+                    <div className="image-container">
+                        <img src="video-button.png" className="responsive-image image-bottom-margin" alt="Video Button" />
+                    </div>
 
                     <div className="live-container-second">
                         {/* Paragraphs */}
