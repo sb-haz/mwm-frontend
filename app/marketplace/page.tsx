@@ -119,6 +119,10 @@ export default async function Marketplace() {
                 </Link>
             </div>
 
+            <div className="center-items margin-top-5">
+                <p className="tag text-grey">Load more services</p>
+            </div>
+
             {/* Empty space */}
             <div className="empty-space"></div>
 
