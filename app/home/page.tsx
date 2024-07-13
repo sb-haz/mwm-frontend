@@ -26,29 +26,22 @@ export default async function Home() {
 
                     <div className="button-container margin-top-20">
                         <Link href="home">
-                            <button className="button pink-button button-large button-text-white text-thick glow-effect">Scan Wedding QR Code</button>
+                            <div className="explore-app-div">
+                                <button className="button pink-button button-large button-text-white text-thick glow-effect">Scan Wedding QR Code</button>
+                                <img src="up-arrow.png" className="up-arrow" />
+                            </div>
                         </Link>
                     </div>
 
                     <div className="button-container margin-top-15">
                         <Link href="marketplace">
-                            <button className="button grey-button button-large button-min-xlarge">Explore the App</button>
+                            <div className="explore-app-div">
+                                <button className="button grey-button button-large button-min-xlarge">Explore the App</button>
+                                <p className="text-xs text-extra-light-grey explore-app-text">Marketplace, planning tools & more</p>
+                                <img src="up-arrow-flipped.png" className="up-arrow-second" />
+                            </div>
                         </Link>
                     </div>
-
-                    {/* <h1 className="heading-large">Login or sign up.</h1>
-                    <div className="button-container">
-                        <Link href="marketplace">
-                            <button className="button grey-button button-large">Login</button>
-                        </Link>
-                    </div> */}
-
-
-                    {/* <div className="center-items">
-                        <img src="mwm-logo.png" className="image-full-width home-logo-image" width={534} height={104} />
-                        <img src="home-couple.png" className="image-full-width home-couple-image" width={511} height={414} />
-                    </div> */}
-
                 </div>
 
                 <div className="empty-space"></div>
