@@ -1,0 +1,16 @@
+.home-logo-image {
+    height: 50px;
+    width: auto;
+    opacity: 80%;
+}
+
+.home-couple-image {
+    height: 200px;
+    width: auto;
+}
+
+.container-home {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

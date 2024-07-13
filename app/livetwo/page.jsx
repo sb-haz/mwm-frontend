@@ -59,7 +59,7 @@ export default async function LiveTwo() {
             <div className="container">
                 <div className="live-container">
                     <Link href="livethree">
-                        <div className="center-button-container">
+                        <div className="button-container margin-top-50">
                             <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Continue</button>
                         </div>
                     </Link>

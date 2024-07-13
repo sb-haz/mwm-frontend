@@ -56,7 +56,7 @@ export default async function Live() {
 
                         {/* Get Started Button */}
                         <Link href="livetwo">
-                            <div className="center-button-container">
+                            <div className="button-container margin-top-50">
                                 <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Get Started</button>
                             </div>
                         </Link>

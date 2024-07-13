@@ -29,7 +29,7 @@ export default async function Index() {
         </div>
 
         {/* Link to marketplace page */}
-        <Link href="marketplace">
+        <Link href="home">
           <div className="centered-div">
             <button className="demo-button">Try Demo</button>
           </div>

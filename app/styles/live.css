@@ -7,11 +7,6 @@
     padding: 2px;
 }
 
-.image-full-width {
-    width: 100%;
-    height: auto;
-}
-
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -59,10 +54,4 @@
 
 .right-col p {
     margin-left: 8px;
-}
-
-.center-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
 }

@@ -16,6 +16,179 @@ body {
     padding-right: 10px;
 }
 
+.image-full-width {
+    width: 100%;
+    height: auto;
+}
+
+.center-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-top-45 {
+    margin-top: 45px;
+}
+
+.margin-bottom-45 {
+    margin-bottom: 45px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.remove-margin-top-5 {
+    margin-top: -5px;
+}
+
+.remove-margin-bottom-5 {
+    margin-bottom: -5px;
+}
+
+.remove-margin-top-10 {
+    margin-top: -10px;
+}
+
+.remove-margin-bottom-10 {
+    margin-bottom: -10px;
+}
+
+.remove-margin-top-15 {
+    margin-top: -15px;
+}
+
+.remove-margin-bottom-15 {
+    margin-bottom: -15px;
+}
+
+.remove-margin-top-20 {
+    margin-top: -20px;
+}
+
+.remove-margin-bottom-20 {
+    margin-bottom: -20px;
+}
+
+.remove-margin-top-25 {
+    margin-top: -25px;
+}
+
+.remove-margin-bottom-25 {
+    margin-bottom: -25px;
+}
+
+.remove-margin-top-30 {
+    margin-top: -30px;
+}
+
+.remove-margin-bottom-30 {
+    margin-bottom: -30px;
+}
+
+.remove-margin-top-35 {
+    margin-top: -35px;
+}
+
+.remove-margin-bottom-35 {
+    margin-bottom: -35px;
+}
+
+.remove-margin-top-40 {
+    margin-top: -40px;
+}
+
+.remove-margin-bottom-40 {
+    margin-bottom: -40px;
+}
+
+.remove-margin-top-45 {
+    margin-top: -45px;
+}
+
+.remove-margin-bottom-45 {
+    margin-bottom: -45px;
+}
+
+.remove-margin-top-50 {
+    margin-top: -50px;
+}
+
+.remove-margin-bottom-50 {
+    margin-bottom: -50px;
+}
+
+
 /* Remove later, empty bottom space */
 .empty-space {
     height: 80px;
@@ -95,6 +268,11 @@ a {
 
 
 /* Buttons */
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .button {
     border: none;
     border-radius: 5px;
@@ -134,15 +312,18 @@ a {
 }
 
 .button-min-small {
-    min-width: 100px; /* Adjust as needed */
+    min-width: 100px;
+    /* Adjust as needed */
 }
 
 .button-min-medium {
-    min-width: 140px; /* Adjust as needed */
+    min-width: 140px;
+    /* Adjust as needed */
 }
 
 .button-min-large {
-    min-width: 180px; /* Adjust as needed */
+    min-width: 180px;
+    /* Adjust as needed */
 }
 
 .button-min-fill {
@@ -161,6 +342,7 @@ a {
         transform: scale(1);
         box-shadow: 0 0 10px rgba(255, 175, 175, 0.5);
     }
+
     100% {
         transform: scale(1.05);
         box-shadow: 0 0 20px rgba(255, 175, 175, 0.7);
@@ -175,6 +357,7 @@ a {
     0% {
         transform: scale(1);
     }
+
     100% {
         transform: scale(1.03);
     }

@@ -126,7 +126,7 @@ export default async function Service() {
             </div>
 
             {/* Service button container */}
-            <div className="service-button-container">
+            <div className="button-container margin-top-40">
                 <button className="button pink-button button-large button-text-white text-thick glow-effect">Request Quote</button>
                 <button className="button grey-button button-large">Message</button>
             </div>
