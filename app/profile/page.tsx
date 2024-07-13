@@ -16,7 +16,7 @@ export default async function Profile() {
 
                 {/* Profile information section */}
                 <div className="resources-profile-info">
-                    <img src="profile-pic.jpg" className="resources-profile-pic-top-left" />
+                    <img src="profile-pic.jpg" className="resources-profile-pic-top-left" width={80} height={80}/>
                     <div className="resources-profile-text-content">
                         {/* Buttons for editing profile and becoming a seller */}
                         <button className="button grey-button button-medium">Edit Profile</button>
