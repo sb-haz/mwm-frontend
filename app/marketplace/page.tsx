@@ -1,17 +1,22 @@
 import React from 'react';
+import Footer from '@/components/Footer';
 import Link from 'next/link';
+
 import '../styles/styles.css';
 import '../styles/search.css';
 import '../styles/categories.css';
 import '../styles/services.css';
-import Footer from '@/components/Footer';
 
 export default async function Marketplace() {
 
     return (
         <div className="container">
+            {/* Main content container */}
             <div className="inner-container">
+                {/* Page heading */}
                 <h1 className="page-heading">Marketplace</h1>
+
+                {/* Search bar */}
                 <div className="marketplace-search-bar">
                     <div className="search-left">
                         <img className="search-icon" src='search-icon.png' />
@@ -22,6 +27,7 @@ export default async function Marketplace() {
                     </div>
                 </div>
 
+                {/* Categories */}
                 <div className="categories-container">
                     <div className="category-item">All</div>
                     <div className="category-item">Photography</div>
@@ -35,6 +41,7 @@ export default async function Marketplace() {
                 </div>
             </div>
 
+            {/* Services container */}
             <div className="services-container">
                 {/* Service 1 */}
                 <Link href="service">
@@ -60,6 +67,7 @@ export default async function Marketplace() {
                         </div>
                     </div>
                 </Link>
+
                 {/* Service 2 */}
                 <Link href="service">
                     <div className="marketplace-service-item">
@@ -83,6 +91,7 @@ export default async function Marketplace() {
                         </div>
                     </div>
                 </Link>
+
                 {/* Service 3 */}
                 <Link href="service">
                     <div className="marketplace-service-item">
@@ -108,7 +117,10 @@ export default async function Marketplace() {
                 </Link>
             </div>
 
+            {/* Empty space */}
             <div className="empty-space"></div>
+
+            {/* Footer */}
             <Footer />
         </div >
     )

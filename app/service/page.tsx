@@ -1,25 +1,32 @@
 import React from 'react';
+import Footer from '@/components/Footer';
 
 import '../styles/styles.css';
 import '../styles/search.css';
 import '../styles/categories.css';
 import '../styles/services.css';
-import Footer from '@/components/Footer';
 
 export default async function Service() {
 
     return (
         <div className="container">
+            {/* Page heading */}
             <h1 className="page-heading">Exotic Chauffeur Hire</h1>
 
+            {/* Profile section */}
             <div className="profile-container">
                 <img src="../profile-pic.png" alt="Profile Picture" className="profile-picture" />
+                {/* Profile name commented out */}
                 {/* <span className="profile-name">Adam Khan</span> */}
                 <span className="tag verified">Active 5m ago</span>
             </div>
 
+            {/* Service image */}
             <img src="../service-1.jpeg" className="service-image" />
+
+            {/* Service details section */}
             <div className="service-details">
+                {/* Indicator container */}
                 <div className="indicator-container">
                     <div className="indicator active"></div>
                     <div className="indicator"></div>
@@ -27,8 +34,10 @@ export default async function Service() {
                     <div className="indicator"></div>
                     <div className="indicator"></div>
                 </div>
-                <div className="service-top-section">
 
+                {/* Service top section */}
+                <div className="service-top-section">
+                    {/* Service rating */}
                     <div className="service-rating service-page">
                         <img src="../star-icon.png" className="star-icon service-page" />
                         <img src="../star-icon.png" className="star-icon service-page" />
@@ -38,41 +47,54 @@ export default async function Service() {
                         <p>4.2</p>
                     </div>
 
+                    {/* Favorite button */}
                     <button className="favorite-button service">
                         <img src="../save-icon.png" alt="Favorite" className="favorite-icon" />
                     </button>
-
                 </div>
+
+                {/* Service tags */}
                 <div className="service-tags">
                     <span className="tag">London</span>
                     <span className="tag">Self-hire</span>
                     <span className="tag">Premium</span>
                 </div>
             </div>
+
+            {/* Service body */}
             <div className="service-body">
+                {/* Services info container */}
                 <div className="services-info-container">
                     <h2 className="services-info-heading">Services offered</h2>
                     <p className="service-description">We offer both self-hire and chauffeur-driven experiences in a selection of luxury cars, including Rolls Royce, Bentley Bentaygas, and other prestigious models.</p>
                     <p className="service-description">Elevate your wedding day with our exquisite fleet, ensuring an unforgettable journey filled with elegance and style.</p>
                 </div>
+
+                {/* Services info container */}
                 <div className="services-info-container">
                     <h2 className="services-info-heading">Pricing & Fees</h2>
                     <p className="service-description">Wedding Packages: Starting at £500 for a 4-hour service.</p>
                     <p className="service-description">Additional Hours: Extend your experience with hourly rates starting at £100 per hour.</p>
                 </div>
+
+                {/* Services info container */}
                 <div className="services-info-container">
                     <h2 className="services-info-heading">Additional Information</h2>
                     <p className="service-description">Please contact us 1 month before your wedding. 10% deposit is required.</p>
                 </div>
             </div>
 
+            {/* Service button container */}
             <div className="service-button-container">
                 <button className="service-custom-button glow-effect">Request Quote</button>
                 <button className="service-custom-button">Message</button>
             </div>
 
+            {/* Empty space */}
             <div className="empty-space"></div>
+
+            {/* Footer */}
             <Footer />
         </div>
-    )
+    );
 }

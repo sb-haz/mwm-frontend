@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Footer from '@/components/Footer';
 import '../styles/styles.css';
 import '../styles/resources.css';
@@ -8,8 +8,12 @@ export default async function Resources() {
 
     return (
         <div className="container">
+            {/* Main content container */}
             <div className="inner-container">
+                {/* Page heading */}
                 <h1 className="page-heading">Planning Hub</h1>
+
+                {/* Search bar */}
                 <div className="marketplace-search-bar">
                     <div className="search-left">
                         <img className="search-icon" src='search-icon.png' />
@@ -18,7 +22,9 @@ export default async function Resources() {
                 </div>
             </div>
 
+            {/* Resources container */}
             <div className="resources-container">
+                {/* Resource Card 1 */}
                 <div className="resources-card">
                     <div className="resources-tag">New</div>
                     <div className="resources-card-content">
@@ -29,6 +35,8 @@ export default async function Resources() {
                         <img src="resource-1.png" className="resources-card-image" />
                     </div>
                 </div>
+
+                {/* Resource Card 2 */}
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
@@ -38,6 +46,8 @@ export default async function Resources() {
                         <img src="resource-2.png" className="resources-card-image" />
                     </div>
                 </div>
+
+                {/* Resource Card 3 */}
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
@@ -47,6 +57,8 @@ export default async function Resources() {
                         <img src="resource-3.png" className="resources-card-image" />
                     </div>
                 </div>
+
+                {/* Resource Card 4 */}
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
@@ -56,21 +68,25 @@ export default async function Resources() {
                         <img src="resource-4.png" className="resources-card-image" />
                     </div>
                 </div>
+
+                {/* Resource Card 5 */}
                 <div className="resources-card">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="resources-title">Honeymoon Planning</h2>
-                            <p className="resources-description">Plan the perfect  getaway with destination guides.</p>
+                            <p className="resources-description">Plan the perfect getaway with destination guides.</p>
                         </div>
                         <img src="resource-5.png" className="resources-card-image" />
                     </div>
                 </div>
             </div>
 
+            {/* Empty space */}
             <div className="empty-space">
             </div>
 
+            {/* Footer */}
             <Footer />
-        </div >
-    )
+        </div>
+    );
 }
