@@ -391,6 +391,10 @@ a {
     margin-right: 4px;
 }
 
+.tag-large {
+    padding: 8px 12px;
+}
+
 .tag-grey-background {
     background-color: #f0f0f0;
 }
@@ -417,6 +421,10 @@ a {
 
 .tag-thick {
     font-weight: bold;
+}
+
+.tag-text-large {
+    font-size: 14px;
 }
 
 .tag-verified {

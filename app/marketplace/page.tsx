@@ -121,12 +121,12 @@ export default async function Marketplace() {
 
             <div className="center-items">
                 <div className="pagination">
-                    <p className="tag tag-pink-background text-dark-grey text-thick">1</p>
-                    <p className="tag tag-grey-background tag-grey-text">2</p>
-                    <p className="tag tag-grey-background tag-grey-text">3</p>
-                    <p className="tag tag-grey-background tag-grey-text">4</p>
-                    <p className="tag tag-grey-background tag-grey-text">5</p>
-                    <p className="tag tag-grey-background tag-grey-text">Next</p>
+                    <p className="tag tag-pink-background tag-large text-dark-grey tag-text-large text-thick">1</p>
+                    <p className="tag tag-grey-background tag-large tag-grey-text tag-text-large">2</p>
+                    <p className="tag tag-grey-background tag-large tag-grey-text tag-text-large">3</p>
+                    <p className="tag tag-grey-background tag-large tag-grey-text tag-text-large">4</p>
+                    <p className="tag tag-grey-background tag-large tag-grey-text tag-text-large">5</p>
+                    <p className="tag tag-grey-background tag-large tag-grey-text tag-text-large">Next</p>
                 </div>
             </div>
 
