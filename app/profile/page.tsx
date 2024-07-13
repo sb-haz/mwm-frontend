@@ -29,8 +29,8 @@ export default async function Profile() {
             <div className="resources-messaging-section">
                 {/* Tabs for messaging */}
                 <div className="resources-messaging-tabs">
-                    <div className="resources-messaging-tab active">Primary Messages</div>
-                    <div className="resources-messaging-tab">Order History</div>
+                    <div className="heading-small text-thick resources-messaging-tab active">Primary Messages</div>
+                    <div className="text-ml resources-messaging-tab">Order History</div>
                 </div>
 
                 {/* Search bar */}
@@ -49,26 +49,26 @@ export default async function Profile() {
                     <div className="resources-messaging-row">
                         <img src="company-logo-1.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
-                            <div className="resources-messaging-name">Exotic Chauffeur Hire</div>
-                            <div className="resources-messaging-message">Hey, can we discuss the catering?</div>
+                            <div className="heading-small resources-messaging-name">Exotic Chauffeur Hire</div>
+                            <div className="text-m text-grey resources-messaging-message">Hey, can we discuss the catering?</div>
                         </div>
-                        <div className="resources-messaging-time">6 mins ago</div>
+                        <div className="text-xs text-light-grey">6 mins ago</div>
                     </div>
                     <div className="resources-messaging-row">
                         <img src="company-logo-2.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
-                            <div className="resources-messaging-name">Safira Floral</div>
-                            <div className="resources-messaging-message">Can you send me the floral arrangements?</div>
+                            <div className="heading-small resources-messaging-name">Safira Floral</div>
+                            <div className="text-m text-grey resources-messaging-message">Can you send me the floral arrangements?</div>
                         </div>
-                        <div className="resources-messaging-time">30 mins ago</div>
+                        <div className="text-xs text-light-grey">30 mins ago</div>
                     </div>
                     <div className="resources-messaging-row">
                         <img src="company-logo-3.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
-                            <div className="resources-messaging-name">Adam Videography</div>
-                            <div className="resources-messaging-message">Can you send me the floral arrangements?</div>
+                            <div className="heading-small resources-messaging-name">Adam Videography</div>
+                            <div className="text-m text-grey resources-messaging-message">Can you send me the floral arrangements?</div>
                         </div>
-                        <div className="resources-messaging-time">2 hours ago</div>
+                        <div className="text-xs text-light-grey">2 hours ago</div>
                     </div>
                 </div>
             </div>
