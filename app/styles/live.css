@@ -7,19 +7,10 @@
     padding: 2px;
 }
 
-.image-container {
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.responsive-image {
+.image-full-width {
     width: 100%;
     height: auto;
-    display: block;
 }
-
 
 .container {
     max-width: 800px;

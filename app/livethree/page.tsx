@@ -11,14 +11,12 @@ export default async function LiveThree() {
     return (
         <div>
             {/* Top Art */}
-            <div className="image-container">
-                <img src="flower-art-top.png" className="responsive-image" alt="Top Art Flowery Design" />
-            </div>
+            <img src="flower-art-top.png" className="image-full-width" width={966} height={301} />
 
             <div className="container reduce-container-margin">
                 {/* Image Above Boxes */}
                 <div className="dashboard-image-above-boxes grow-effect">
-                    <img src="couples-name.png" alt="Image Above Boxes" />
+                    <img src="couples-name.png" alt="Image Above Boxes" width={223} height={42} />
                 </div>
 
                 {/* Dashboard Boxes Container */}

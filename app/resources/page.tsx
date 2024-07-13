@@ -34,7 +34,7 @@ export default async function Resources() {
                             <h2 className="heading-medium heading-medium resources-title">Free Designs & Templates</h2>
                             <p className="text-s text-grey resources-description">Free templates for your wedding displays, signs, invites and more.</p>
                         </div>
-                        <img src="resource-1.png" className="resources-card-image" />
+                        <img src="resource-1.png" className="resources-card-image" width={100} height={70} />
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ export default async function Resources() {
                             <h2 className="heading-medium heading-medium resources-title">Essential Planning Guides</h2>
                             <p className="text-s text-grey resources-description">Guides and checklists for every step of your wedding journey.</p>
                         </div>
-                        <img src="resource-2.png" className="resources-card-image" />
+                        <img src="resource-2.png" className="resources-card-image" width={100} height={75} />
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default async function Resources() {
                             <h2 className="heading-medium resources-title">DIY Ideas & Inspiration</h2>
                             <p className="text-s text-grey resources-description">Browse DIY wedding ideas and projects for personalised touches.</p>
                         </div>
-                        <img src="resource-3.png" className="resources-card-image" />
+                        <img src="resource-3.png" className="resources-card-image" width={100} height={76} />
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ export default async function Resources() {
                             <h2 className="heading-medium resources-title">Dealing with Vendors and sellers</h2>
                             <p className="text-s text-grey resources-description">Practical advice and strategies for buying from vendors.</p>
                         </div>
-                        <img src="resource-4.png" className="resources-card-image" />
+                        <img src="resource-4.png" className="resources-card-image" width={100} height={100} />
                     </div>
                 </div>
 

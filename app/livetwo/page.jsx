@@ -11,9 +11,7 @@ export default async function LiveTwo() {
     return (
         <div>
             {/* Top Art */}
-            <div className="image-container">
-                <img src="flower-art-top.png" className="responsive-image" alt="Top Art Flowery Design" />
-            </div>
+            <img src="flower-art-top.png" className="image-full-width" width={966} height={301} />
 
             {/* Main Container */}
             <div className="container">
@@ -55,9 +53,7 @@ export default async function LiveTwo() {
             </div>
 
             {/* Full Width Image */}
-            <div className="image-container">
-                <img src="couple-art-date.png" className="responsive-image image-bottom-margin" alt="Full Width Image" />
-            </div>
+            <img src="couple-art-date.png" className="image-full-width image-bottom-margin" width={383} height={345} />
 
             {/* Continue Button */}
             <div className="container">
