@@ -11,7 +11,9 @@ export default async function LiveTwo() {
     return (
         <div>
             {/* Top Art */}
-            <img src="flower-art-top.png" className="top-art" alt="Top Art Flowery Design" />
+            <div className="image-container">
+                <img src="flower-art-top.png" className="top-art" alt="Top Art Flowery Design" />
+            </div>
 
             {/* Main Container */}
             <div className="container">

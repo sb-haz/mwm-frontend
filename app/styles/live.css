@@ -7,9 +7,24 @@
     padding: 2px;
 }
 
-.top-art {
+.image-container {
+    position: relative;
     width: 100%;
+    max-width: 100%;
+    /* Change if image dimensions change later */
+    padding-bottom: calc(301 / 966 * 100%);
+    overflow: hidden;
 }
+
+.top-art {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 .container {
     max-width: 800px;
