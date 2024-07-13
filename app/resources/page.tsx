@@ -28,7 +28,7 @@ export default async function Resources() {
             <div className="resources-container">
                 {/* Resource Card 1 */}
                 <div className="resources-card">
-                    <div className="resources-tag">New</div>
+                    <div className="tag tag-pink-background resources-tag">New</div>
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="heading-medium heading-medium resources-title">Free Designs & Templates</h2>
