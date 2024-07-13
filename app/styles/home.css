@@ -23,17 +23,18 @@
     width: 12px;
     position: absolute;
     opacity: 100%;
-    right: 240px;
-    top: -15px;
+    left: -10%;
+    top: -25%;
 }
 
 
 .up-arrow-second {
     width: 12px;
     position: absolute;
-    opacity: 60%;
-    right: -22px;
-    top: 35px;
+    opacity: 50%;
+    transform: rotate(15deg);
+    right: -8%;
+    bottom: 5%;
 }
 
 .explore-app-text {
