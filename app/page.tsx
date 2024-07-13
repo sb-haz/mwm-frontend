@@ -11,7 +11,7 @@ export default async function Index() {
 
         {/* Mockup image */}
         <div className="mockup-1">
-          <img src="mockup-1.png" alt="iPhone Mockup" />
+          <img src="mockup-1.png" alt="iPhone Mockup" width={200} height={277} />
         </div>
 
         {/* Main heading */}
