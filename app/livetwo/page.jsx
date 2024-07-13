@@ -53,7 +53,7 @@ export default async function LiveTwo() {
             </div>
 
             {/* Full Width Image */}
-            <img src="couple-art-date-min.png" className="full-width-image" alt="Full Width Image" />
+            <img src="couple-art-date.png" className="full-width-image" alt="Full Width Image" />
 
             {/* Continue Button */}
             <div className="container">
