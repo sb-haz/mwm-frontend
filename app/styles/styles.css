@@ -28,6 +28,14 @@ body {
     align-items: center;
 }
 
+.same-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+
+}
+
 .margin-top-5 {
     margin-top: 5px;
 }
@@ -313,17 +321,18 @@ a {
 
 .button-min-small {
     min-width: 100px;
-    /* Adjust as needed */
 }
 
 .button-min-medium {
     min-width: 140px;
-    /* Adjust as needed */
 }
 
 .button-min-large {
     min-width: 180px;
-    /* Adjust as needed */
+}
+
+.button-min-xlarge {
+    min-width: 220px;
 }
 
 .button-min-fill {
