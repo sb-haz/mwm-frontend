@@ -1,8 +1,6 @@
-/* styles.css */
-
 body {
     margin: 0px;
-    background-color: #FBFBFB;
+    background-color: #fefefe;
     overflow-x: hidden;
 }
 
@@ -31,5 +29,5 @@ a {
 
 /* Remove later, empty bottom space */
 .empty-space {
-    height: 90px;
+    height: 80px;
 }

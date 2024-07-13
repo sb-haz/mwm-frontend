@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 import '../styles/styles.css';
 import '../styles/live.css';
 
@@ -37,9 +38,11 @@ export default async function Live() {
                             </div>
                         </div>
 
+                        <Link href="livetwo">
                         <div className="center-button-container">
                             <button className="get-started-button glow-effect">Get Started</button>
                         </div>
+                        </Link>
 
                         <div className="empty-space"></div>
                     </div>

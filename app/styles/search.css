@@ -11,13 +11,16 @@
 
 .search-left {
     display: flex;
-    flex-wrap: nowrap; /* Prevent items from wrapping onto new lines */
-    justify-content: space-between; /* Adjust as needed */
-    align-items: center; /* Adjust as needed */
+    flex-wrap: nowrap;
+    /* Prevent items from wrapping onto new lines */
+    justify-content: space-between;
+    /* Adjust as needed */
+    align-items: center;
+    /* Adjust as needed */
 }
 
 .search-icon {
-    width: 20px; 
+    width: 20px;
     height: 20px;
     margin-left: 20px;
 }
@@ -37,4 +40,58 @@
     height: 20px;
     padding-right: 20px;
     opacity: 80%;
+}
+
+.live-date-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #F1F1F1;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.live-date-search-bar.split-two {
+    width: 50%;
+}
+
+.live-date-search-bar p {
+    color: #878787;
+    size: 14px;
+}
+
+.full-width-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #F1F1F1;
+    border-radius: 100px;
+}
+
+.full-width-search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-left.calendar-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.calendar-icon-img {
+    width: 16px;
+}
+
+.search-bar-two {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }

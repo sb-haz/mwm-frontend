@@ -1,0 +1,62 @@
+.reduce-container-margin  {
+    margin-top: -40px;
+}
+.dashboard-live-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-image-above-boxes {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-image-above-boxes img {
+    width: 65%;
+    display: block; /* Ensures image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+.dashboard-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    justify-items: center;
+}
+
+.dashboard-box {
+    width: 80%; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 18px;
+    background-color: white;
+    border: 1px solid #F1F1F1;
+    border-radius: 15px;
+}
+
+.dashboard-box-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #464646;
+    width: 90%;
+}
+
+.dashboard-box-description {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: #7d7d7d;
+}
+
+.dashboard-setup-button {
+    background-color: #FFB1B1;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
