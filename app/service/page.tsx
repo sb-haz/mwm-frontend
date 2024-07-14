@@ -44,7 +44,7 @@ export default async function Service() {
                         <img src="../star-icon.png" className="star-icon service-page" />
                         <img src="../star-icon.png" className="star-icon service-page" />
                         <img src="../star-empty-icon.png" className="star-icon service-page" />
-                        <p className="text-thick">4.2</p>
+                        <p className="">4.2</p>
                     </div>
 
                     {/* Favorite button */}
@@ -133,7 +133,7 @@ export default async function Service() {
 
             {/* Empty space */}
             <div className="empty-space"></div>
-            <div className="empty-space"></div>
+            <div className="empty-space-s"></div>
 
 
             {/* Footer */}

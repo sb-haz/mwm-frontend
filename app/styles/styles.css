@@ -198,6 +198,12 @@ body {
 
 
 /* Remove later, empty bottom space */
+.empty-space-s {
+    height: 40px;
+}
+.empty-space-m {
+    height: 60px;
+}
 .empty-space {
     height: 80px;
 }
