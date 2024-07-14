@@ -32,7 +32,7 @@ export default async function ProtectedPage() {
         </nav>
       </div>
 
-      <Footer/>
+      <Footer activePage="protected" />
     </div>
   );
 }
