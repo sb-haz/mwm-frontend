@@ -28,6 +28,17 @@ export default async function Resources() {
             <div className="resources-container">
                 {/* Resource Card 1 */}
                 <div className="resources-card">
+                    <div className="resources-card-content">
+                        <div className="resources-text-content">
+                            <h2 className="heading-medium heading-medium resources-title">Essential Planning Guides</h2>
+                            <p className="text-s text-grey resources-description">Guides and checklists for every step of your wedding journey.</p>
+                        </div>
+                        <img src="resource-2.png" className="resources-card-image" width={100} height={75} />
+                    </div>
+                </div>
+                
+                {/* Resource Card 2 */}
+                <div className="resources-card">
                     <div className="tag tag-pink-background resources-tag">New</div>
                     <div className="resources-card-content">
                         <div className="resources-text-content">
@@ -37,17 +48,7 @@ export default async function Resources() {
                         <img src="resource-1.png" className="resources-card-image" width={100} height={70} />
                     </div>
                 </div>
-
-                {/* Resource Card 2 */}
-                <div className="resources-card">
-                    <div className="resources-card-content">
-                        <div className="resources-text-content">
-                            <h2 className="heading-medium heading-medium resources-title">Essential Planning Guides</h2>
-                            <p className="text-s text-grey resources-description">Guides and checklists for every step of your wedding journey.</p>
-                        </div>
-                        <img src="resource-2.png" className="resources-card-image" width={100} height={75} />
-                    </div>
-                </div>
+                
 
                 {/* Resource Card 3 */}
                 <div className="resources-card">
