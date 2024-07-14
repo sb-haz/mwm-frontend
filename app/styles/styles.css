@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-    padding-top: 20px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-bottom: 20px;
 }
 
@@ -349,7 +349,7 @@ a {
 
 
 
-/* Effects */
+/* Animations / effects */
 .glow-effect {
     animation: glow 2s ease-in-out infinite alternate;
 }
@@ -379,8 +379,6 @@ a {
         transform: scale(1.03);
     }
 }
-
-
 
 /* Tags */
 .tag {
