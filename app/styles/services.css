@@ -119,8 +119,8 @@
 }
 
 .profile-picture {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 8px;
