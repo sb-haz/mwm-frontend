@@ -84,7 +84,7 @@ export default async function Style() {
                 <button className="button grey-button button-large glow-effect">Large Glowing Grey Button</button>
             </div>
 
-            <Footer />
+            <Footer activePage="style" />
         </div >
     )
 }

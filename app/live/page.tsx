@@ -67,7 +67,7 @@ export default async function Live() {
                 </div>
 
                 {/* Footer */}
-                <Footer />
+                <Footer activePage="live" />
             </div>
         </div>
     );

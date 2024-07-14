@@ -137,7 +137,7 @@ export default async function Service() {
 
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="service" />
         </div>
     );
 }

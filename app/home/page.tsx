@@ -46,7 +46,7 @@ export default async function Home() {
 
                 <div className="empty-space"></div>
                 <div className="empty-space"></div>
-                <Footer />
+                <Footer activePage="home" />
             </div >
         </div>
     )

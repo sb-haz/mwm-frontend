@@ -88,7 +88,7 @@ export default async function Resources() {
             </div>
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="resources" />
         </div>
     );
 }

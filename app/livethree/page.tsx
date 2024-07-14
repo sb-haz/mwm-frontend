@@ -69,7 +69,7 @@ export default async function LiveThree() {
             <div className="empty-space"></div>
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="live" />
         </div>
     );
 }

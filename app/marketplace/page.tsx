@@ -134,7 +134,7 @@ export default async function Marketplace() {
             <div className="margin-top-40"></div>
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="marketplace" />
         </div >
     )
 }

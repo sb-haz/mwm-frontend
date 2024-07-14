@@ -71,7 +71,7 @@ export default async function LiveTwo() {
             <div className="empty-space"></div>
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="live" />
         </div>
     );
 }

@@ -86,7 +86,7 @@ export default async function Profile() {
             </div>
 
             {/* Footer */}
-            <Footer />
+            <Footer activePage="profile" />
         </div>
     );
 }
