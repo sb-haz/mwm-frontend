@@ -17,18 +17,18 @@ const Footer: React.FC<FooterProps> = ({ activePage }) => {
             {activePage !== 'home' && <div className="white-circle"></div>}
           </div>
         </Link>
-        <Link href="marketplace">
-          <div className="footer-icon-wrapper">
-            <img src="/footer-search.png" className={`footer-icon ${activePage === 'marketplace' ? 'active' : ''}`} />
-            {activePage === 'marketplace' && <div className="white-circle active"></div>}
-            {activePage !== 'marketplace' && <div className="white-circle"></div>}
-          </div>
-        </Link>
         <Link href="live">
           <div className="footer-icon-wrapper">
             <img src="/footer-ring.png" className={`footer-icon ring ${activePage === 'live' ? 'active' : ''}`} />
             {activePage === 'live' && <div className="white-circle active"></div>}
             {activePage !== 'live' && <div className="white-circle"></div>}
+          </div>
+        </Link>
+        <Link href="marketplace">
+          <div className="footer-icon-wrapper">
+            <img src="/footer-search.png" className={`footer-icon ${activePage === 'marketplace' ? 'active' : ''}`} />
+            {activePage === 'marketplace' && <div className="white-circle active"></div>}
+            {activePage !== 'marketplace' && <div className="white-circle"></div>}
           </div>
         </Link>
         <Link href="resources">
