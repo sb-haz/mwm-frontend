@@ -60,7 +60,7 @@ export default async function Profile() {
                             <div className="heading-small resources-messaging-name">White Bloom Decor</div>
                             <div className="text-m text-grey resources-messaging-message">Great received your payment, thanks!</div>
                         </div>
-                        <div className="text-xs text-light-grey">27 minutes ago</div>
+                        <div className="text-xs text-light-grey">27 mins ago</div>
                     </div>
                     <div className="resources-messaging-row">
                         <img src="company-logo-3.jpg" className="resources-messaging-profile-pic" />
