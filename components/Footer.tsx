@@ -12,15 +12,15 @@ const Footer = () => {
             <div className="white-circle"></div>
           </div>
         </Link>
-        <Link href="marketplace">
-          <div className="footer-icon-wrapper">
-            <img src="/footer-search.png" className="footer-icon" />
-            <div className="white-circle"></div>
-          </div>
-        </Link>
         <Link href="live">
           <div className="footer-icon-wrapper">
             <img src="/footer-ring.png" className="footer-icon ring" />
+            <div className="white-circle"></div>
+          </div>
+        </Link>
+        <Link href="marketplace">
+          <div className="footer-icon-wrapper">
+            <img src="/footer-search.png" className="footer-icon" />
             <div className="white-circle"></div>
           </div>
         </Link>
