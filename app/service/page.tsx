@@ -43,8 +43,8 @@ export default async function Service() {
                         <img src="../star-icon.png" className="star-icon service-page" />
                         <img src="../star-icon.png" className="star-icon service-page" />
                         <img src="../star-icon.png" className="star-icon service-page" />
-                        <img src="../star-icon.png" className="star-icon service-page" />
-                        <p>4.2</p>
+                        <img src="../star-empty-icon.png" className="star-icon service-page" />
+                        <p className="text-thick">4.2</p>
                     </div>
 
                     {/* Favorite button */}
