@@ -18,7 +18,7 @@ export default async function Service() {
                 <img src="../profile-pic.png" alt="Profile Picture" className="profile-picture" />
                 {/* Profile name commented out */}
                 {/* <span className="profile-name">Adam Khan</span> */}
-                <span className="tag tag-verified">Active 5m ago</span>
+                <span className="tag tag-grey-background tag-grey-text">Active 2h ago</span>
             </div>
 
             {/* Service image */}
