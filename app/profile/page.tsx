@@ -50,7 +50,7 @@ export default async function Profile() {
                         <img src="company-logo-1.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
                             <div className="heading-small resources-messaging-name">Exotic Chauffeur Hire</div>
-                            <div className="text-m text-grey resources-messaging-message">Hey, can we discuss the catering?</div>
+                            <div className="text-m text-grey resources-messaging-message">You can keep the lambo for today</div>
                         </div>
                         <div className="text-xs text-light-grey">6 mins ago</div>
                     </div>
@@ -58,7 +58,7 @@ export default async function Profile() {
                         <img src="company-logo-4.jpg" className="resources-messaging-profile-pic" />
                         <div className="resources-messaging-text-content">
                             <div className="heading-small resources-messaging-name">White Bloom Decor</div>
-                            <div className="text-m text-grey resources-messaging-message">The payment wasn't sent so I can't.</div>
+                            <div className="text-m text-grey resources-messaging-message">Great received your payment, thanks!</div>
                         </div>
                         <div className="text-xs text-light-grey">27 minutes ago</div>
                     </div>
