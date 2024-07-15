@@ -49,6 +49,11 @@ body {
     align-items: center;
 }
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
 .same-row {
     display: flex;
     flex-wrap: nowrap;
@@ -374,6 +379,10 @@ a {
 
 .button-min-fill {
     width: 100%;
+}
+
+.button-text-large {
+    font-size: 18px;
 }
 
 
