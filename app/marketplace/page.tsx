@@ -130,10 +130,7 @@ export default async function Marketplace() {
                 </div>
             </div>
 
-            {/* Empty space */}
-            <div className="margin-top-40"></div>
-
-            {/* Footer */}
+            <div className="container-bottom-m"></div>
             <Footer activePage="marketplace" />
         </div >
     )

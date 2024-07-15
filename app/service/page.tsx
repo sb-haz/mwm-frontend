@@ -131,12 +131,8 @@ export default async function Service() {
                 <button className="button grey-button button-large">Message</button>
             </div>
 
-            {/* Empty space */}
-            <div className="empty-space"></div>
-            <div className="empty-space-s"></div>
-
-
-            {/* Footer */}
+            <div className="container-bottom-xl"></div>
+            <div className="container-bottom-s"></div>
             <Footer activePage="service" />
         </div>
     );

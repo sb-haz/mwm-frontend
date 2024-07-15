@@ -10,7 +10,7 @@ export default async function Live() {
     return (
         <div>
             {/* Top Art */}
-            <img src="flower-art-top.png" className="image-full-width" width={966} height={301} />
+            <img src="flower-art-top.png" className="image-full-width top-banner-image" width={966} height={301} />
 
             <div className="container">
                 <div className="live-container">
@@ -60,13 +60,11 @@ export default async function Live() {
                                 <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Get Started</button>
                             </div>
                         </Link>
-
-                        {/* Empty Space */}
-                        <div className="empty-space"></div>
                     </div>
                 </div>
 
-                {/* Footer */}
+                <div className="container-bottom-xl"></div>
+                <div className="container-bottom-s"></div>
                 <Footer activePage="live" />
             </div>
         </div>

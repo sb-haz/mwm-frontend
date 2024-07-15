@@ -65,10 +65,7 @@ export default async function LiveThree() {
                 </div>
             </div>
 
-            {/* Empty Space */}
-            <div className="empty-space"></div>
-
-            {/* Footer */}
+            <div className="container-bottom-xl"></div>
             <Footer activePage="live" />
         </div>
     );

@@ -84,11 +84,11 @@ export default async function Profile() {
                 </div>
             </div>
 
-            {/* Empty space */}
-            <div className="empty-space">
+            <div className="center-items">
+                <span className="text-xs text-light-grey margin-top-10 margin-bottom-5">No more conversations</span>
             </div>
 
-            {/* Footer */}
+            <div className="container-bottom-l"></div>
             <Footer activePage="profile" />
         </div>
     );

@@ -6,14 +6,35 @@ body {
 
 .container {
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    padding-left: 11px;
+    padding-right: 11px;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 .inner-container {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.container-bottom-xl {
+    height: 100px;
+}
+
+.container-bottom-l {
+    height: 80px;
+}
+
+.container-bottom-m {
+    height: 60px;
+}
+
+.container-bottom-xs {
+    height: 40px;
+}
+
+.container-bottom-s {
+    height: 20px;
 }
 
 .image-full-width {
@@ -201,9 +222,11 @@ body {
 .empty-space-s {
     height: 40px;
 }
+
 .empty-space-m {
     height: 60px;
 }
+
 .empty-space {
     height: 80px;
 }
@@ -433,7 +456,6 @@ a {
 
 .tag-verified {
     font-size: 12px;
-    background-color: #eeeeee;
     color: rgb(145, 145, 145);
     height: 12px;
 }
@@ -456,4 +478,3 @@ a {
     flex-wrap: wrap;
     gap: 10px;
 }
-

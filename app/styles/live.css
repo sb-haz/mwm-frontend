@@ -3,12 +3,13 @@ body {
 }
 
 .live-container {
-    padding: 20px;
-    margin-top: -60px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .live-container-second {
-    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .page-heading {
@@ -51,4 +52,14 @@ body {
 
 .right-col p {
     margin-left: 8px;
+}
+
+.top-banner-image {
+    margin-bottom: -60px;
+}
+
+@media (min-width: 501px) {
+    .top-banner-image {
+        display: none;
+    }
 }

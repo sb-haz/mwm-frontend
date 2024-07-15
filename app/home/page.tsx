@@ -15,12 +15,12 @@ export default async function Home() {
     return (
 
         <div>
-            <img src="flower-art-top.png" className="image-full-width" width={966} height={301} />
+            <img src="flower-art-top.png" className="image-full-width top-banner-image" width={966} height={301} />
             <div className="container">
                 <div className="live-container">
 
                     <div className="center-items">
-                        <img src="home-couple.png" className="image-full-width home-couple-image remove-margin-top-5" width={511} height={414} />
+                        <img src="home-couple.png" className="image-full-width home-couple-image margin-top-15" width={511} height={414} />
                         <img src="mwm-logo.png" className="image-full-width home-logo-image" width={534} height={104} />
                     </div>
 
@@ -44,8 +44,7 @@ export default async function Home() {
                     </div>
                 </div>
 
-                <div className="empty-space"></div>
-                <div className="empty-space"></div>
+                <div className="container-bottom"></div>
                 <Footer activePage="home" />
             </div >
         </div>

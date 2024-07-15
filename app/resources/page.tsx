@@ -36,7 +36,7 @@ export default async function Resources() {
                         <img src="resource-2.png" className="resources-card-image" width={100} height={75} />
                     </div>
                 </div>
-                
+
                 {/* Resource Card 2 */}
                 <div className="resources-card">
                     <div className="tag tag-pink-background resources-tag">New</div>
@@ -48,7 +48,7 @@ export default async function Resources() {
                         <img src="resource-1.png" className="resources-card-image" width={100} height={70} />
                     </div>
                 </div>
-                
+
 
                 {/* Resource Card 3 */}
                 <div className="resources-card">
@@ -84,11 +84,8 @@ export default async function Resources() {
                 </div>
             </div>
 
-            {/* Empty space */}
-            <div className="empty-space">
-            </div>
-
-            {/* Footer */}
+            <div className="container-bottom-xl"></div>
+            <div className="container-bottom-s"></div>
             <Footer activePage="resources" />
         </div>
     );
