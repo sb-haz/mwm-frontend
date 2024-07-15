@@ -3,19 +3,12 @@ body {
 }
 
 .live-container {
-    padding: 5px;
-    margin-top: -40px;
+    padding: 20px;
+    margin-top: -60px;
 }
 
 .live-container-second {
     padding: 2px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
 }
 
 .page-heading {
