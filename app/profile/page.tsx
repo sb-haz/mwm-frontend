@@ -20,10 +20,10 @@ export default async function Profile() {
                     <div className="resources-profile-text-content">
                         {/* Buttons for editing profile and becoming a seller */}
                         <div className="button-container profile-button-container">
-                            <button className="button grey-button button-medium">Edit Profile</button>
-                            <button className="button grey-button button-medium">Settings</button>
+                            <button className="button grey-button button-medium edit-setting-buttons">Edit Profile</button>
+                            <button className="button grey-button button-medium edit-setting-buttons">Settings</button>
                         </div>
-                        <button className="button pink-button button-medium button-text-white box-drop-shadow-03">Become a Seller</button>
+                        <button className="button pink-button button-medium button-text-white box-drop-shadow-03">Become a seller</button>
                     </div>
                 </div>
             </div>

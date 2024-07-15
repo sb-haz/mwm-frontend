@@ -25,6 +25,11 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 100%;
+}
+
+.edit-setting-buttons {
+    width: 100%;
 }
 
 .resources-profile-name {
