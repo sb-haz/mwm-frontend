@@ -101,6 +101,7 @@
 
 .resources-messaging-message {
     margin-bottom: 5px;
+    max-width: 90%;
 }
 
 .profile-button-container {
