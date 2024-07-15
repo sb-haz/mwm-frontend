@@ -23,7 +23,7 @@ export default async function Profile() {
                             <button className="button grey-button button-medium">Edit Profile</button>
                             <button className="button grey-button button-medium">Settings</button>
                         </div>
-                        <button className="button pink-button button-medium button-text-white">Become a Seller</button>
+                        <button className="button pink-button button-medium button-text-white box-drop-shadow-03">Become a Seller</button>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default async function Profile() {
                 </div>
 
                 {/* Search bar */}
-                <div className="search-container">
+                <div className="search-container box-drop-shadow-03 rounded-corners-100">
                     <div className="full-width-search">
                         <div className="search-left">
                             <img src="search-icon.png" alt="Search Icon" />

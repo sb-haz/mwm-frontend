@@ -22,12 +22,12 @@ export default async function LiveTwo() {
 
                     {/* Couple's Name Search Bar */}
                     <div className="search-container">
-                        <div className="half-width-search">
+                        <div className="half-width-search box-drop-shadow-03 rounded-corners-100">
                             <div className="search-left">
                                 <p className="text-m text-grey">James</p>
                             </div>
                         </div>
-                        <div className="half-width-search">
+                        <div className="half-width-search box-drop-shadow-03 rounded-corners-100">
                             <div className="search-left">
                                 <p className="text-m text-grey">Yasmine</p>
                             </div>
@@ -38,7 +38,7 @@ export default async function LiveTwo() {
                     <h1 className="heading-large">Wedding date</h1>
 
                     {/* Wedding Date Search Bar */}
-                    <div className="search-container">
+                    <div className="search-container box-drop-shadow-03 rounded-corners-100">
                         <div className="full-width-search">
                             <div className="search-left">
                                 <img src="search-icon.png" alt="Search Icon" />
@@ -53,7 +53,7 @@ export default async function LiveTwo() {
             </div>
 
             {/* Full Width Image */}
-            <img src="couple-art-date.png" className="image-full-width image-bottom-margin" width={383} height={345} />
+            <img src="couple-art-date.png" className="image-full-width margin-top-15 image-bottom-margin" width={383} height={345} />
 
             {/* Continue Button */}
             <div className="container">

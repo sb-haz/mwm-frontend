@@ -18,12 +18,19 @@
 }
 
 /* Service image */
+.service-image-container {
+    padding: 2px;
+}
+
 .service-image {
-    height: 185px;
     width: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
     object-fit: cover;
     border-radius: 15px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
 }
 
 /* Main details for service */
@@ -99,7 +106,7 @@
 }
 
 .services-info-heading {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #4F4D4D;
     margin-top: 0px;

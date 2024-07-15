@@ -14,7 +14,7 @@ export default async function Resources() {
                 <h1 className="heading-large">Planning Hub</h1>
 
                 {/* Search bar */}
-                <div className="search-container">
+                <div className="search-container box-drop-shadow-03 rounded-corners-100">
                     <div className="full-width-search">
                         <div className="search-left">
                             <img src="search-icon.png" alt="Search Icon" />
@@ -27,7 +27,7 @@ export default async function Resources() {
             {/* Resources container */}
             <div className="resources-container">
                 {/* Resource Card 1 */}
-                <div className="resources-card">
+                <div className="resources-card box-drop-shadow-03">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="heading-medium heading-medium resources-title">Essential Planning Guides</h2>
@@ -38,7 +38,7 @@ export default async function Resources() {
                 </div>
 
                 {/* Resource Card 2 */}
-                <div className="resources-card">
+                <div className="resources-card box-drop-shadow-03">
                     <div className="tag tag-pink-background resources-tag">New</div>
                     <div className="resources-card-content">
                         <div className="resources-text-content">
@@ -51,7 +51,7 @@ export default async function Resources() {
 
 
                 {/* Resource Card 3 */}
-                <div className="resources-card">
+                <div className="resources-card box-drop-shadow-03">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="heading-medium resources-title">DIY Ideas & Inspiration</h2>
@@ -62,7 +62,7 @@ export default async function Resources() {
                 </div>
 
                 {/* Resource Card 4 */}
-                <div className="resources-card">
+                <div className="resources-card box-drop-shadow-03">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="heading-medium resources-title">Dealing with Vendors and sellers</h2>
@@ -73,7 +73,7 @@ export default async function Resources() {
                 </div>
 
                 {/* Resource Card 5 */}
-                <div className="resources-card">
+                <div className="resources-card box-drop-shadow-03">
                     <div className="resources-card-content">
                         <div className="resources-text-content">
                             <h2 className="heading-medium resources-title">Honeymoon Planning</h2>

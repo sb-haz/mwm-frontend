@@ -22,45 +22,45 @@ export default async function LiveThree() {
                 {/* Dashboard Boxes Container */}
                 <div className="dashboard-box-container">
                     {/* Dashboard Box 1 */}
-                    <div className="dashboard-box">
-                        <h2 className="heading-medium">Wedding Event</h2>
+                    <div className="dashboard-box box-drop-shadow-03">
+                        <h2 className="heading-medium">Wedding Day Event</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
                     </div>
 
                     {/* Dashboard Box 2 */}
-                    <div className="dashboard-box">
+                    <div className="dashboard-box box-drop-shadow-03">
                         <h2 className="heading-medium">Photo & Videos</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 3 */}
-                    <div className="dashboard-box">
+                    <div className="dashboard-box box-drop-shadow-03">
                         <h2 className="heading-medium">Gifting and Payments</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 4 */}
-                    <div className="dashboard-box">
+                    <div className="dashboard-box box-drop-shadow-03">
                         <h2 className="heading-medium">Interactive Games</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
                     </div>
 
                     {/* Dashboard Box 5 */}
-                    <div className="dashboard-box">
+                    <div className="dashboard-box box-drop-shadow-03">
                         <h2 className="heading-medium">Messaging & Guestbook</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
 
                     {/* Dashboard Box 6 */}
-                    <div className="dashboard-box">
+                    <div className="dashboard-box box-drop-shadow-03">
                         <h2 className="heading-medium">Notifications and Updates</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
-                        <button className="button pink-button button-large button-min-fill text-thick button-text-white">Setup</button>
+                        <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
                 </div>
             </div>

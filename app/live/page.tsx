@@ -18,7 +18,7 @@ export default async function Live() {
                     <h1 className="heading-large">Yasmine, let's make your wedding a memorable one.</h1>
 
                     {/* Full Width Image */}
-                    <img src="video-button.png" className="image-full-width image-bottom-margin" width={333} height={163} />
+                    <img src="video-button.png" className="image-full-width image-bottom-margin box-drop-shadow-10 rounded-corners" width={333} height={163} />
 
                     <div className="live-container-second">
                         {/* Paragraphs */}
@@ -34,7 +34,7 @@ export default async function Live() {
                             </div>
                             <div className="right-col">
                                 {/* Right Column Image */}
-                                <img src="live-image-template.png" className="right-col-image" alt="Right Column Image" />
+                                <img src="live-image-template.png" className="right-col-image box-drop-shadow-05 rounded-corners" alt="Right Column Image" />
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ export default async function Live() {
                         <div className="two-col-container">
                             <div className="left-col">
                                 {/* Left Column Image */}
-                                <img src="live-image-template.png" className="left-col-image" alt="Left Column Image" />
+                                <img src="live-image-template.png" className="left-col-image box-drop-shadow-05 rounded-corners" alt="Left Column Image" />
                             </div>
                             <div className="right-col">
                                 <p>Send live announcements at your wedding to everyone within the app, display food menu, allergy info, etc.</p>

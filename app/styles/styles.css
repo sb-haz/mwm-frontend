@@ -409,6 +409,26 @@ a {
     }
 }
 
+.box-drop-shadow-10 {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.box-drop-shadow-05 {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.box-drop-shadow-03 {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.03);
+}
+
+.rounded-corners {
+    border-radius: 15px;
+}
+
+.rounded-corners-100 {
+    border-radius: 100px;
+}
+
 /* Tags */
 .tag {
     display: inline-block;

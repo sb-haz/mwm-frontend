@@ -17,7 +17,7 @@ export default async function Marketplace() {
                 <h1 className="heading-large">Marketplace</h1>
 
                 {/* Search bar */}
-                <div className="search-container">
+                <div className="search-container box-drop-shadow-03 rounded-corners-100">
                     <div className="full-width-search">
                         <div className="search-left">
                             <img src="search-icon.png" alt="Search Icon" />
@@ -47,8 +47,8 @@ export default async function Marketplace() {
             <div className="services-container">
                 {/* Service 1 */}
                 <Link href="service">
-                    <div className="marketplace-service-item">
-                        <img src="service-1.jpeg" className="service-image" />
+                    <div className="marketplace-service-item box-drop-shadow-05">
+                        <img src="service-1.jpeg" className="service-image box-drop-shadow-03" />
                         <div className="service-details">
                             <div className="marketplace-service-two-col">
                                 <h2 className="heading-medium marketplace-service-name">Exotic Chauffeur Hire</h2>
@@ -72,8 +72,8 @@ export default async function Marketplace() {
 
                 {/* Service 2 */}
                 <Link href="service">
-                    <div className="marketplace-service-item">
-                        <img src="service-2.jpeg" className="service-image" />
+                    <div className="marketplace-service-item box-drop-shadow-05">
+                        <img src="service-2.jpeg" className="service-image box-drop-shadow-03" />
                         <div className="service-details">
                             <div className="marketplace-service-two-col">
                                 <h2 className="heading-medium marketplace-service-name">Fahima Cakes & Desserts </h2>
@@ -96,8 +96,8 @@ export default async function Marketplace() {
 
                 {/* Service 3 */}
                 <Link href="service">
-                    <div className="marketplace-service-item">
-                        <img src="service-3.jpeg" className="service-image" />
+                    <div className="marketplace-service-item box-drop-shadow-05">
+                        <img src="service-3.jpeg" className="service-image box-drop-shadow-03" />
                         <div className="service-details">
                             <div className="marketplace-service-two-col">
                                 <h2 className="heading-medium marketplace-service-name">Supreme Events 360 Camera</h2>

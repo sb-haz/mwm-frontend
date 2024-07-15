@@ -10,19 +10,21 @@ export default async function Service() {
 
     return (
         <div className="container">
-            {/* Page heading */}
-            <h1 className="heading-large">Exotic Chauffeur Hire</h1>
+            <div className="inner-container">
+                {/* Page heading */}
+                <h1 className="heading-large">Exotic Chauffeur Hire</h1>
 
-            {/* Profile section */}
-            <div className="profile-container">
-                <img src="../profile-pic.png" alt="Profile Picture" className="profile-picture" />
-                {/* Profile name commented out */}
-                {/* <span className="profile-name">Adam Khan</span> */}
-                <span className="tag tag-grey-background tag-grey-text">Verified Business</span>
+                {/* Profile section */}
+                <div className="profile-container">
+                    <img src="../profile-pic.png" alt="Profile Picture" className="profile-picture" />
+                    <span className="tag tag-grey-background tag-grey-text">Verified Business</span>
+                </div>
             </div>
 
             {/* Service image */}
-            <img src="../service-1.jpeg" className="service-image" />
+            <div className="service-image-container">
+                <img src="../service-1.jpeg" className="service-image box-drop-shadow-10" />
+            </div>
 
             {/* Service details section */}
             <div className="service-details">
