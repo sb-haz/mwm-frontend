@@ -66,6 +66,9 @@
     }
 }
 
-.footer-icon-space {
-    margin-left: 15px;
+.footer-divider {
+    width: 1px;
+    height: 24px;
+    background-color: rgb(255, 232, 251);
+    margin: 0 16px;
 }

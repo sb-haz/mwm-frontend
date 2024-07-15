@@ -25,7 +25,7 @@ const Footer: React.FC<FooterProps> = ({ activePage }) => {
           </div>
         </Link>
 
-        <div className="footer-icon-space">
+        <div className="footer-divider">
         </div>
 
         <Link href="marketplace">
