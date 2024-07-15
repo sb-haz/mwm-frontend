@@ -24,6 +24,10 @@ const Footer: React.FC<FooterProps> = ({ activePage }) => {
             {activePage !== 'live' && <div className="white-circle"></div>}
           </div>
         </Link>
+
+        <div className="footer-icon-space">
+        </div>
+
         <Link href="marketplace">
           <div className="footer-icon-wrapper">
             <img src="/footer-search.png" className={`footer-icon ${activePage === 'marketplace' ? 'active' : ''}`} />
