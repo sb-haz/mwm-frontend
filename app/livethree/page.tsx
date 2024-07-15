@@ -30,7 +30,7 @@ export default async function LiveThree() {
 
                     {/* Dashboard Box 2 */}
                     <div className="dashboard-box box-drop-shadow-03">
-                        <h2 className="heading-medium">Photo & Videos</h2>
+                        <h2 className="heading-medium">Photos & Videos</h2>
                         <p className="text-medium text-grey">Lorem ipsum dolor sit amet consectetur. Pharetra amet quam.</p>
                         <button className="button grey-button button-large button-min-fill text-thick">Complete</button>
                     </div>
