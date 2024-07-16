@@ -18,7 +18,7 @@ export default async function Live() {
                     <h1 className="heading-large">Yasmine, let's make your wedding a memorable one.</h1>
 
                     {/* Full Width Image */}
-                    <img src="video-button.png" className="image-full-width image-bottom-margin box-drop-shadow-10 rounded-corners" width={333} height={163} />
+                    <img src="video-button.png" className="image-full-width image-bottom-margin margin-top-5 box-drop-shadow-10 rounded-corners" width={333} height={163} />
 
                     <div className="live-container-second">
                         {/* Paragraphs */}
