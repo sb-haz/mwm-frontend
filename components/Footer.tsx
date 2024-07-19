@@ -30,9 +30,8 @@ const Footer: React.FC<FooterProps> = ({ activePage }) => {
 
           <Link href="marketplace">
             <div className="footer-icon-wrapper">
-              <img src="/footer-search.png" className={`footer-icon ${activePage === 'marketplace' ? 'active' : ''}`} />
-              {activePage === 'marketplace' && <div className="white-circle active"></div>}
-              {activePage !== 'marketplace' && <div className="white-circle"></div>}
+              <img src="/footer-search.png" className={`footer-icon ${(activePage === 'marketplace' || activePage === 'service') ? 'active' : ''}`} />
+              {(activePage === 'marketplace' || activePage === 'service') ? <div className="white-circle active"></div> : <div className="white-circle"></div>}
             </div>
           </Link>
           <Link href="resources">
@@ -50,8 +49,8 @@ const Footer: React.FC<FooterProps> = ({ activePage }) => {
             </div>
           </Link>
         </div>
-      </footer>
-    </div>
+      </footer >
+    </div >
   );
 }
 
