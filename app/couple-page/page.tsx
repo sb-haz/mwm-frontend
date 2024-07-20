@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import Footer from '@/components/Footer';
+import confetti from 'canvas-confetti';
 import Link from 'next/link';
 
 import '../styles/styles.css';
@@ -13,49 +13,49 @@ import '../styles/live.css';
 
 export default function CouplePage() {
     useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js";
-        script.async = true;
+        const colors = ['#fff', '#ffb3b3'];
+        let animationFrameId: number | undefined;
+        let timeoutId: NodeJS.Timeout | undefined;
 
-        script.onload = () => {
-            const colors = ['#fff', '#ffb3b3'];
+        function startConfetti() {
+            const end = Date.now() + 2000; // 2 seconds
 
-            function startConfetti() {
-                const end = Date.now() + (1500);
+            function frame() {
+                confetti({
+                    particleCount: 2,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 },
+                    colors: colors
+                });
+                confetti({
+                    particleCount: 2,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 },
+                    colors: colors
+                });
 
-                function frame() {
-                    confetti({
-                        particleCount: 2,
-                        angle: 60,
-                        spread: 55,
-                        origin: { x: 0 },
-                        colors: colors
-                    });
-                    confetti({
-                        particleCount: 2,
-                        angle: 120,
-                        spread: 55,
-                        origin: { x: 1 },
-                        colors: colors
-                    });
-
-                    if (Date.now() < end) {
-                        requestAnimationFrame(frame);
-                    } else {
-                        setTimeout(startConfetti, 6000);
-                    }
+                if (Date.now() < end) {
+                    animationFrameId = requestAnimationFrame(frame);
+                } else {
+                    timeoutId = setTimeout(startConfetti, 5000);
                 }
-
-                frame();
             }
 
-            startConfetti();
-        };
+            frame();
+        }
 
-        document.body.appendChild(script);
+        startConfetti();
 
+        // Cleanup function
         return () => {
-            document.body.removeChild(script);
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
         };
     }, []);
 
@@ -68,9 +68,11 @@ export default function CouplePage() {
             <img src="/couple-art-date.png" className="image-full-width margin-top-50 image-bottom-margin" width={383} height={345} />
 
             <div className="button-container margin-top-20">
-                <Link href="couple-page-dashboard">
+                <Link href="/couple-page-dashboard">
                     <div className="explore-app-div">
-                        <button className="button pink-button button-medium button-text-white text-thick  glow-effect">Join the Celebration</button>
+                        <button className="button pink-button button-medium button-text-white text-thick glow-effect">
+                            Join the Celebration
+                        </button>
                     </div>
                 </Link>
             </div>
