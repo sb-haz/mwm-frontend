@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import '../styles/styles.css';
 import '../styles/search.css';
@@ -64,10 +65,10 @@ export default function CouplePage() {
     return (
         <div className="couple-container">
             {/* Top Art */}
-            <img src="/flower-art-top-2.png" className="image-full-width top-banner-image" width={375} height={117} />
+            <Image src="/flower-art-top-2.png" className="image-full-width top-banner-image" width={375} height={117} alt="" />
 
             {/* Full Width Image */}
-            <img src="/couple-art-date-2.png" className="image-middle margin-top-50 image-bottom-margin" width={375} height={319} />
+            <Image src="/couple-art-date-2.png" className="image-middle margin-top-50 image-bottom-margin" width={375} height={319} alt="" />
 
             <div className="button-container margin-top-20">
                 <Link href="couple-page-dashboard">
@@ -81,7 +82,7 @@ export default function CouplePage() {
 
             {/* Bottom Art Wrapper */}
             <div className="bottom-banner-wrapper">
-                <img src="/flower-art-bottom-2.png" className="image-full-width bottom-banner-image" width={375} height={106} />
+                <Image src="/flower-art-bottom-2.png" className="image-full-width bottom-banner-image" width={375} height={106} alt="" />
             </div>
         </div>
     );

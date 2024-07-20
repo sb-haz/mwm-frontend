@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import '/app/styles/landing-page.css';
 
@@ -11,7 +12,7 @@ export default async function Index() {
 
         {/* Mockup image */}
         <div className="mockup-1">
-          <img src="mockup-1.png" alt="iPhone Mockup" width={200} height={277} />
+          <Image src="mockup-1.png" width={200} height={277} alt="" />
         </div>
 
         {/* Main heading */}
@@ -19,13 +20,13 @@ export default async function Index() {
 
         {/* App store images with links */}
         <div className="app-images">
-          <img src="app_store_image.png" alt="App Store" />
-          <img src="play_store_image.png" alt="Play Store" />
+          <Image src="app_store_image.png" alt="" />
+          <Image src="play_store_image.png" alt="" />
         </div>
 
         {/* Coming soon image */}
         <div className="coming-soon">
-          <img src="coming-soon.png" alt="Coming Soon" />
+          <Image src="coming-soon.png" alt="" />
         </div>
 
         {/* Link to marketplace page */}
