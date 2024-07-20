@@ -19,7 +19,7 @@ export default function ScanQRCode() {
     useEffect(() => {
         const timer = setTimeout(() => {
             router.push('/couple-page');
-        }, 5000);
+        }, 500000);
 
         return () => clearTimeout(timer);
     }, [router]);
@@ -44,7 +44,7 @@ export default function ScanQRCode() {
                     <div className="button-container margin-top-15">
                         <Link href="home">
                             <div className="explore-app-div">
-                                <button className="button grey-button button-large button-text-medium">Go Back</button>
+                                <button className="button grey-button button-large button-min-large button-text-medium">Go Back</button>
                             </div>
                         </Link>
                     </div>
