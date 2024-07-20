@@ -42,7 +42,9 @@
 }
 
 .dashboard-icon {
-    width: 120%;
+    margin-top: -5px;
+    width: 100px;
+    height: 50px;
 }
 
 .live-dashboard {
