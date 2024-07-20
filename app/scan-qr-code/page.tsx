@@ -19,7 +19,7 @@ export default function ScanQRCode() {
     useEffect(() => {
         const timer = setTimeout(() => {
             router.push('/couple-page');
-        }, 25000);
+        }, 3000);
 
         return () => clearTimeout(timer);
     }, [router]);
