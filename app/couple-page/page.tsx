@@ -13,7 +13,7 @@ import '../styles/live.css';
 
 export default function CouplePage() {
     useEffect(() => {
-        const colors = ['#fff', '#FF9191'];
+        const colors = ['#fff', '#FFB4B4'];
         let animationFrameId: number | undefined;
         let timeoutId: NodeJS.Timeout | undefined;
 
@@ -22,7 +22,7 @@ export default function CouplePage() {
 
             function frame() {
                 confetti({
-                    particleCount: 2,
+                    particleCount: 4,
                     angle: 60,
                     spread: 55,
                     origin: { x: 0 },
@@ -30,7 +30,7 @@ export default function CouplePage() {
                     scalar: 1.25
                 });
                 confetti({
-                    particleCount: 2,
+                    particleCount: 4,
                     angle: 120,
                     spread: 55,
                     origin: { x: 1 },
