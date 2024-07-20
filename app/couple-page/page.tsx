@@ -13,7 +13,7 @@ import '../styles/live.css';
 
 export default function CouplePage() {
     useEffect(() => {
-        const colors = ['#fff', '#ffb3b3'];
+        const colors = ['#fff', '#FF9191'];
         let animationFrameId: number | undefined;
         let timeoutId: NodeJS.Timeout | undefined;
 
