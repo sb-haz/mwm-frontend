@@ -10,7 +10,7 @@ export default async function Live() {
     return (
         <div>
             {/* Top Art */}
-            <img src="flower-art-top.png" className="image-full-width top-banner-image" width={966} height={301} />
+            <img src="flower-art-top-2.png" className="image-full-width top-banner-image" width={966} height={301} />
 
             <div className="container">
                 <div className="live-container">
