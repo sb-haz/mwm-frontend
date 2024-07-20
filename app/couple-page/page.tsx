@@ -64,7 +64,7 @@ export default function CouplePage() {
     return (
         <div className="couple-container">
             {/* Top Art */}
-            <img src="/flower-art-top-2.png" className="image-full-width top-banner-image" width={966} height={301} />
+            <img src="/flower-art-top-2.png" className="image-full-width top-banner-image" width={375} height={117} />
 
             {/* Full Width Image */}
             <img src="/couple-art-date-2.png" className="image-middle margin-top-50 image-bottom-margin" width={383} height={345} />

@@ -11,7 +11,7 @@ export default async function LiveTwo() {
     return (
         <div>
             {/* Top Art */}
-            <img src="flower-art-top-2.png" className="image-full-width top-banner-image" width={966} height={301} />
+            <img src="flower-art-top-2.png" className="image-full-width top-banner-image" width={375} height={117} />
 
             {/* Main Container */}
             <div className="container">

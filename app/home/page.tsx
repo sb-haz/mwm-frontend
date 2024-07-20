@@ -15,7 +15,7 @@ export default async function Home() {
     return (
 
         <div>
-            <img src="flower-art-top-2.png" className="image-full-width top-banner-image" width={966} height={301} />
+            <img src="flower-art-top-2.png" className="image-full-width top-banner-image" width={375} height={117} />
             <div className="container">
                 <div className="live-container">
 
