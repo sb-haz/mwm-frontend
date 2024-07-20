@@ -18,7 +18,7 @@ export default function CouplePage() {
         let timeoutId: NodeJS.Timeout | undefined;
 
         function startConfetti() {
-            const end = Date.now() + 2000; // 2 seconds
+            const end = Date.now() + 2000;
 
             function frame() {
                 confetti({
@@ -26,14 +26,16 @@ export default function CouplePage() {
                     angle: 60,
                     spread: 55,
                     origin: { x: 0 },
-                    colors: colors
+                    colors: colors,
+                    scalar: 1.25
                 });
                 confetti({
                     particleCount: 2,
                     angle: 120,
                     spread: 55,
                     origin: { x: 1 },
-                    colors: colors
+                    colors: colors,
+                    scalar: 1.25
                 });
 
                 if (Date.now() < end) {
@@ -65,12 +67,12 @@ export default function CouplePage() {
             <img src="/flower-art-top.png" className="image-full-width top-banner-image" width={966} height={301} />
 
             {/* Full Width Image */}
-            <img src="/couple-art-date.png" className="image-full-width margin-top-50 image-bottom-margin" width={383} height={345} />
+            <img src="/couple-art-date-2.png" className="image-middle margin-top-50 image-bottom-margin" width={383} height={345} />
 
             <div className="button-container margin-top-20">
-                <Link href="/couple-page-dashboard">
+                <Link href="couple-page-dashboard">
                     <div className="explore-app-div">
-                        <button className="button pink-button button-medium button-text-white text-thick glow-effect">
+                        <button className="button pink-button button-large button-text-large button-text-white text-thick glow-effect">
                             Join the Celebration
                         </button>
                     </div>

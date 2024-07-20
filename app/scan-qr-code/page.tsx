@@ -19,7 +19,7 @@ export default function ScanQRCode() {
     useEffect(() => {
         const timer = setTimeout(() => {
             router.push('/couple-page');
-        }, 2500);
+        }, 25000);
 
         return () => clearTimeout(timer);
     }, [router]);
@@ -31,6 +31,7 @@ export default function ScanQRCode() {
                 <div className="live-container">
                     <div className="center-items margin-top-10">
                         <img src="qr-code.png" className="image-full-width home-couple-image margin-top-15" width={625} height={373} />
+                        <div className="break"></div>
                         <h1 className="heading-medium">Scan QR Code</h1>
                     </div>
                     <div className="button-container margin-top-20">

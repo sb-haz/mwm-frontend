@@ -76,8 +76,19 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: -1;
 }
 
 .bottom-banner-image {
     width: 100%;
+}
+
+.image-middle {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
