@@ -1,5 +1,6 @@
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import Script from 'next/script';
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="">
           {children}
         </main>
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" strategy="afterInteractive" />
       </body>
     </html>
   );
