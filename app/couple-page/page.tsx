@@ -22,7 +22,7 @@ export default function CouplePage() {
 
             function frame() {
                 confetti({
-                    particleCount: 10,
+                    particleCount: 15,
                     angle: 60,
                     spread: 55,
                     origin: { x: 0 },
@@ -30,7 +30,7 @@ export default function CouplePage() {
                     scalar: 1.25
                 });
                 confetti({
-                    particleCount: 10,
+                    particleCount: 15,
                     angle: 120,
                     spread: 55,
                     origin: { x: 1 },
