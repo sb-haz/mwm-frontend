@@ -71,7 +71,7 @@ body {
 }
 
 .bottom-banner-wrapper {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -81,6 +81,7 @@ body {
 
 .bottom-banner-image {
     width: 100%;
+    height: auto;
 }
 
 .image-middle {
