@@ -64,3 +64,20 @@ body {
         display: none;
     }
 }
+
+.couple-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.bottom-banner-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-banner-image {
+    width: 100%;
+}
