@@ -10,7 +10,7 @@ export default async function Index() {
 
         {/* Mockup image */}
         <div className="mockup-1">
-          <img src="mockup-1.png" width={200} height={277} alt="Mockup Image" />
+          <img src="mockup-1.png" width={578} height={800} alt="Mockup Image" />
         </div>
 
         {/* Main heading */}
