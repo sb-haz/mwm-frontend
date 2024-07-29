@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '@/components/Footer';
 
-import '../styles/styles.css';
-import '../styles/search.css';
-import '../styles/categories.css';
-import '../styles/services.css';
+import '@styles/styles.css';
+import '@styles/search.css';
+import '@styles/categories.css';
+import '@styles/services.css';
 
 export default async function Service() {
 

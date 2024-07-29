@@ -4,14 +4,14 @@ import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import Link from 'next/link';
 
-import '../styles/styles.css';
-import '../styles/search.css';
-import '../styles/categories.css';
-import '../styles/services.css';
-import '../styles/home.css';
-import '../styles/live.css';
+import '@styles/styles.css';
+import '@styles/search.css';
+import '@styles/categories.css';
+import '@styles/services.css';
+import '@styles/home.css';
+import '@styles/live.css';
 
-export default function CouplePage() {
+export default function Wedding() {
     useEffect(() => {
         const colors = ['#fff', '#FFB4B4'];
         let animationFrameId: number | undefined;
@@ -70,7 +70,7 @@ export default function CouplePage() {
             <img src="/couple-art-date-2.png" className="image-middle margin-top-50 image-bottom-margin" width={375} height={319} alt="Couple Art" />
 
             <div className="button-container margin-top-20">
-                <Link href="couple-page-dashboard">
+                <Link href="wedding-dashboard">
                     <div className="explore-app-div">
                         <button className="button pink-button button-large button-text-large button-text-white text-thick glow-effect">
                             Join the Celebration

@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '@/components/Footer';
 
-import '../styles/styles.css';
-import '../styles/live.css';
-import '../styles/search.css';
-import '../styles/dashboard.css';
+import '@styles/styles.css';
+import '@styles/live.css';
+import '@styles/search.css';
+import '@styles/dashboard.css';
 
 export default async function LiveThree() {
 

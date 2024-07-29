@@ -2,10 +2,10 @@ import React from 'react';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-import '../styles/styles.css';
-import '../styles/live.css';
+import '@styles/styles.css';
+import '@styles/live.css';
 
-export default async function Live() {
+export default async function LiveOnboarding() {
 
     return (
         <div>
@@ -55,7 +55,7 @@ export default async function Live() {
                         </div>
 
                         {/* Get Started Button */}
-                        <Link href="livetwo">
+                        <Link href="live-onboarding">
                             <div className="button-container margin-top-50">
                                 <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Get Started</button>
                             </div>

@@ -2,12 +2,12 @@ import React from 'react';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-import '../styles/styles.css';
-import '../styles/search.css';
-import '../styles/categories.css';
-import '../styles/services.css';
-import '../styles/home.css';
-import '../styles/live.css';
+import '@styles/styles.css';
+import '@styles/search.css';
+import '@styles/categories.css';
+import '@styles/services.css';
+import '@styles/home.css';
+import '@styles/live.css';
 
 export default async function Home() {
     return (
@@ -21,7 +21,7 @@ export default async function Home() {
                         <img src="/mwm-logo.png" className="image-full-width home-logo-image" alt="MWM Logo" width={534} height={104} />
                     </div>
                     <div className="button-container margin-top-20">
-                        <Link href="scan-qr-code">
+                        <Link href="wedding-scan-qr">
                             <div className="explore-app-div">
                                 <button className="button pink-button button-large button-text-white text-thick button-text-large glow-effect">Scan Wedding QR Code</button>
                                 <img src="/up-arrow.png" className="up-arrow" alt="Up Arrow" />

@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-import '../styles/styles.css';
-import '../styles/live.css';
-import '../styles/search.css';
-import '../styles/dashboard.css';
+import '@styles/styles.css';
+import '@styles/live.css';
+import '@styles/search.css';
+import '@styles/dashboard.css';
 
-export default function CouplePageDashboard() {
+export default function WeddingDashboard() {
 
     return (
         <div>

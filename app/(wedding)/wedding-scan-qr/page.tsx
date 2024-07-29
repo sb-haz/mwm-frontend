@@ -5,20 +5,20 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-import '../styles/styles.css';
-import '../styles/search.css';
-import '../styles/categories.css';
-import '../styles/services.css';
-import '../styles/home.css';
-import '../styles/live.css';
+import '@styles/styles.css';
+import '@styles/search.css';
+import '@styles/categories.css';
+import '@styles/services.css';
+import '@styles/home.css';
+import '@styles/live.css';
 
-export default function ScanQRCode() {
+export default function WeddingScanQR() {
 
     const router = useRouter();
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            router.push('/couple-page');
+            router.push('/wedding');
         }, 4000);
 
         return () => clearTimeout(timer);
@@ -35,7 +35,7 @@ export default function ScanQRCode() {
                         <h1 className="heading-medium">Scan QR Code</h1>
                     </div>
                     <div className="button-container margin-top-20">
-                        <Link href="couple-page">
+                        <Link href="wedding">
                             <div className="explore-app-div">
                                 <button className="button pink-button button-large button-text-white text-thick button-text-large glow-effect">Scanning QR Code</button>
                             </div>

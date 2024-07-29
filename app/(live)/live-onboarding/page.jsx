@@ -2,11 +2,11 @@ import React from 'react';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-import '../styles/styles.css';
-import '../styles/live.css';
-import '../styles/search.css';
+import '@styles/styles.css';
+import '@styles/live.css';
+import '@styles/search.css';
 
-export default async function LiveTwo() {
+export default async function LiveDashboard() {
 
     return (
         <div>
@@ -58,7 +58,7 @@ export default async function LiveTwo() {
             {/* Continue Button */}
             <div className="container">
                 <div className="live-container">
-                    <Link href="livethree">
+                    <Link href="live-dashboard">
                         <div className="button-container">
                             <button className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">Continue</button>
                         </div>

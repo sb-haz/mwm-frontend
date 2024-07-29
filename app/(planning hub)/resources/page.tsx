@@ -1,8 +1,9 @@
 import React from 'react';
 import Footer from '@/components/Footer';
-import '../styles/styles.css';
-import '../styles/resources.css';
-import '../styles/search.css';
+
+import '@styles/styles.css';
+import '@styles/resources.css';
+import '@styles/search.css';
 
 export default async function Resources() {
 

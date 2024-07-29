@@ -20,9 +20,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@styles/*": ["app/styles/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/login/page.jsx", "app/marketplace/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(auth)/login/page.jsx", "app/(marketplace)/marketplace/page.jsx"],
   "exclude": ["node_modules"]
 }
