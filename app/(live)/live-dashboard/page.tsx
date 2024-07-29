@@ -6,7 +6,7 @@ import '@styles/live.css';
 import '@styles/search.css';
 import '@styles/dashboard.css';
 
-export default async function LiveThree() {
+export default async function LiveDashboard() {
 
     return (
         <div>

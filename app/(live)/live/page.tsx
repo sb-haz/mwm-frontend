@@ -5,7 +5,7 @@ import Link from 'next/link';
 import '@styles/styles.css';
 import '@styles/live.css';
 
-export default async function LiveOnboarding() {
+export default async function Live() {
 
     return (
         <div>

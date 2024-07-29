@@ -6,7 +6,7 @@ import '@styles/styles.css';
 import '@styles/live.css';
 import '@styles/search.css';
 
-export default async function LiveDashboard() {
+export default async function LiveOnboarding() {
 
     return (
         <div>
