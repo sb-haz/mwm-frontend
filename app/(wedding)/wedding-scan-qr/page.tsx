@@ -19,7 +19,7 @@ export default function WeddingScanQR() {
     useEffect(() => {
         const timer = setTimeout(() => {
             router.push('/wedding');
-        }, 4000);
+        }, 10000);
 
         return () => clearTimeout(timer);
     }, [router]);
