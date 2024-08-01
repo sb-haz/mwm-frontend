@@ -33,7 +33,7 @@ export default async function Profile() {
             {/* Main content container */}
             <div className="inner-container">
                 {/* Page heading */}
-                <h1 className="heading-large">User</h1>
+                <h1 className="heading-large">{user.email}</h1>
 
                 {/* Profile information section */}
                 <div className="resources-profile-info">
