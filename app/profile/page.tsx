@@ -11,10 +11,17 @@ import '@styles/search.css';
 export default async function Profile() {
     const supabase = createClient(); // Create a new Supabase client
 
-    // Get the user from the session
-    const {
-        data: { user },
-    } = await supabase.auth.getUser();
+    let user;
+
+    try {
+        // Get the user from the session
+        const response = await supabase.auth.getUser();
+        user = response.data.user;
+    } catch (error) {
+        console.error("Error fetching user:", error);
+        // Optionally handle specific errors or log them
+        return redirect("/login?message=Error fetching user");
+    }
 
     // If no user, redirect to login
     if (!user) {
