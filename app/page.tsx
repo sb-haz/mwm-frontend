@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import '/app/styles/landing-page.css';
+import '@styles/landing-page.css';
 
 export default async function Index() {
   return (

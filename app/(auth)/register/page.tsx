@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { headers } from "next/headers";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 import { SubmitButton } from "../submit-button";
@@ -8,45 +9,49 @@ import '@styles/styles.css';
 import '@styles/login.css';
 import '@styles/search.css';
 
-export default function Login({ searchParams }: { searchParams: { message: string } }) {
+export default function Register({ searchParams }: { searchParams: { message: string } }) {
 
-  const signIn = async (formData: FormData) => {
+  const signUp = async (formData: FormData) => {
     "use server";
+    const origin = headers().get("origin");
     const email = formData.get("email") as string;
     const password = formData.get("password") as string;
     const supabase = createClient();
 
-    const { error } = await supabase.auth.signInWithPassword({
+    const { error } = await supabase.auth.signUp({
       email,
       password,
+      options: {
+        emailRedirectTo: `${origin}/auth/callback`,
+      },
     });
 
     if (error) {
-      return redirect("/login?message=Could not authenticate user");
+      console.error('Registration Error:', error.message);
+      return redirect(`/register?message=${encodeURIComponent(error.message)}`);
     }
 
-    return redirect("/profile");
+    return redirect("/login?message=Check email to continue sign-in process");
   };
 
   return (
     <div className="container">
       <div className="inner-container">
-
-        <h1 className="heading-large">Sign in</h1>
+        <h1 className="heading-large">Register</h1>
 
         {/* Mockup Image */}
         <div className="mockup-1">
-          <img src="mockup-1.png" alt="Mockup Image" />
+          <img src="mockup-2.png" alt="Mockup Image" />
         </div>
 
-        {/* Login Form */}
+        {/* Registration form */}
         <form className="login-form">
           <div className="margin-bottom-20">
             <label htmlFor="email" className="existing-email-label">Email</label>
             <div className="search-container box-drop-shadow-03 rounded-corners-100">
               <div className="full-width-search">
                 <div className="search-left">
-                  <input name="email" className="" placeholder="you@example.com" defaultValue="jasmin@icloud.com" required />
+                  <input name="email" className="" placeholder="you@example.com" required />
                 </div>
                 <div className="search-right"></div>
               </div>
@@ -58,7 +63,7 @@ export default function Login({ searchParams }: { searchParams: { message: strin
             <div className="search-container box-drop-shadow-03 rounded-corners-100">
               <div className="full-width-search">
                 <div className="search-left">
-                  <input type="password" name="password" className="" defaultValue="Jas123!" placeholder="••••••••" required />
+                  <input type="password" name="password" className="" placeholder="••••••••" required />
                 </div>
                 <div className="search-right"></div>
               </div>
@@ -66,12 +71,12 @@ export default function Login({ searchParams }: { searchParams: { message: strin
           </div>
 
           <div className="button-container margin-top-40">
-            <SubmitButton formAction={signIn} pendingText="Signing In..."
+            <SubmitButton formAction={signUp} pendingText="Signing Up..."
               className="button pink-button button-large button-min-large button-text-white text-thick glow-effect">
-              Sign In
-            </SubmitButton>
-            <Link href="/register" className="button grey-button button-large">
               Register
+            </SubmitButton>
+            <Link href="/login" className="button grey-button button-large">
+              Sign In
             </Link>
           </div>
 

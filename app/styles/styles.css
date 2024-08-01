@@ -62,6 +62,10 @@ body {
 
 }
 
+.message {
+    text-align: center;
+}
+
 .margin-top-5 {
     margin-top: 5px;
 }
@@ -337,6 +341,11 @@ a {
 
 .grey-button {
     background-color: #f0f0f0;
+    color: #333;
+}
+
+.white-button {
+    background-color: #ffffff;
     color: #333;
 }
 

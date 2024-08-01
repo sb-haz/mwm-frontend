@@ -1,4 +1,7 @@
 import React from 'react';
+import { createClient } from "@/utils/supabase/server";
+import { redirect } from "next/navigation";
+import AuthButton from "@/components/AuthButton";
 import Footer from '@/components/Footer';
 
 import '@styles/styles.css';
@@ -6,13 +9,24 @@ import '@styles/profile.css';
 import '@styles/search.css';
 
 export default async function Profile() {
+    const supabase = createClient(); // Create a new Supabase client
+
+    // Get the user from the session
+    const {
+        data: { user },
+    } = await supabase.auth.getUser();
+
+    // If no user, redirect to login
+    if (!user) {
+        return redirect("/login");
+    }
 
     return (
         <div className="container">
             {/* Main content container */}
             <div className="inner-container">
                 {/* Page heading */}
-                <h1 className="heading-large">Yasmine</h1>
+                <h1 className="heading-large">{user.email}</h1>
 
                 {/* Profile information section */}
                 <div className="resources-profile-info">
@@ -20,8 +34,8 @@ export default async function Profile() {
                     <div className="resources-profile-text-content">
                         {/* Buttons for editing profile and becoming a seller */}
                         <div className="button-container profile-button-container">
-                            <button className="button grey-button button-medium edit-setting-buttons">Edit Profile</button>
                             <button className="button grey-button button-medium edit-setting-buttons">Settings</button>
+                            <AuthButton />
                         </div>
                         <button className="button pink-button button-medium button-text-white box-drop-shadow-03">Become a seller</button>
                     </div>
