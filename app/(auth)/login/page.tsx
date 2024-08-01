@@ -46,7 +46,7 @@ export default function Login({ searchParams }: { searchParams: { message: strin
             <div className="search-container box-drop-shadow-03 rounded-corners-100">
               <div className="full-width-search">
                 <div className="search-left">
-                  <input name="email" className="" placeholder="you@example.com" defaultValue="jasmin@icloud.com" required />
+                  <input name="email" className="" placeholder="you@example.com" defaultValue="jasmine@icloud.com" required />
                 </div>
                 <div className="search-right"></div>
               </div>
