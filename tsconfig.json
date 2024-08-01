@@ -21,7 +21,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@styles/*": ["app/styles/*"]
+      "@styles/*": ["./app/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(auth)/login/page.jsx", "app/(marketplace)/marketplace/page.jsx"],
